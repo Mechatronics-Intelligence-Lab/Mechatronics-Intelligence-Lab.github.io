@@ -7,8 +7,8 @@ locale:       "en"
 
 # About/contact
 author:
-  name:       Author name
-  url:        http://yourhomepage.com 
+  name:       Hong Youngsun
+  url:        https://mechatronics-intelligence-lab.github.io/
 
 # Gems
 gems:
