@@ -6,7 +6,7 @@ paginate:     1
 locale:       "en"
 
 # About/contact
-author:
+author:       MIL
   name:       Hong Youngsun
   url:        https://mechatronics-intelligence-lab.github.io/
 
