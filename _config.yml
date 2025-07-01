@@ -27,4 +27,4 @@ plugins:
 target-blank:
     rel: nofollow
 
-header_page_refs: ['Research', 'People', 'contact']
+header_page_refs: ['research', 'people', 'contact']
