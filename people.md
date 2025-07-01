@@ -1,4 +1,4 @@
-ple---
+---
 layout: page
 title: People
 tagline: Researcher
