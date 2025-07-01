@@ -1,9 +1,9 @@
----
+ple---
 layout: page
 title: People
 tagline: Researcher
-permalink: /about.html
-ref: about
+permalink: /people.html
+ref: people
 order: 0
 ---
 
