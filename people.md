@@ -9,7 +9,6 @@ order: 0
 
 ### Education
 - Ph.D. in Department of Mechanical & Aerospace Engineering, Seoul National University, 2011. 08
-- 
 - B.S. in Department of Mechanical & Automotive Engineering , Kookmin University, 2005. 02
 
 ### Experiences
