@@ -12,9 +12,9 @@ order: 0
 - B.S. in Department of Mechanical & Automotive Engineering , Kookmin University, 2005. 02
 
 #### Experiences
-- 2025-03 ~            Assistant Professor, Jeonbuk National University
-- 2017-12 ~ 2025-02   Principal Researcher, Korea Institute of Industrial Technology
-- 2011-09 ~ 2017-11   Senior Researcher, Samsung Heavy Industries
+- [2025-03 ~        ]   Assistant Professor, Jeonbuk National University
+- [2017-12 ~ 2025-02]   Principal Researcher, Korea Institute of Industrial Technology
+- [2011-09 ~ 2017-11]   Senior Researcher, Samsung Heavy Industries
 
 #### Honor & Award
 - Young Scientist Award, Korea Society for Prognostics & Health Management (2024)
