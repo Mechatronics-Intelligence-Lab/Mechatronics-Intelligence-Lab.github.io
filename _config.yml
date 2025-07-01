@@ -9,6 +9,10 @@ url: "https://mechatronics-intelligence-lab.github.io"
 
 google_analytics:
 
+date_format: "%b %-d, %Y"
+
+theme: # leave it empty
+
 image: /thumbnail-jumbo.png
 
 header_page_refs: ['research', 'people', 'contact']
