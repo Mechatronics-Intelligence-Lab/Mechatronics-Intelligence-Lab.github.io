@@ -2,8 +2,8 @@
 layout: page
 title: Research
 tagline: 주요 연구분야
-permalink: /Research.html
-ref: Research
+permalink: /research.html
+ref: research
 order: 2
 ---
 
