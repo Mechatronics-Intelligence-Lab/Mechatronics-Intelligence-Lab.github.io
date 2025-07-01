@@ -8,3 +8,7 @@ baseurl: "https://mechatronics-intelligence-lab.github.io"
 url: "https://mechatronics-intelligence-lab.github.io" 
 
 google_analytics:
+
+image: /thumbnail-jumbo.png
+
+header_page_refs: ['research', 'people', 'contact']
