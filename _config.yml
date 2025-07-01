@@ -1,7 +1,7 @@
 
 # Setup
 title: Mechatronics Intelligence Lab
-description: 우리는 전기차, 배터리 및 파워트레인을 포함하는 메카트로닉스 시스템에 대해 연구합니다.
+description: 전기차, 배터리 및 파워트레인을 포함하는 메카트로닉스 시스템에 대해 연구합니다.
 show_downloads: true
 
 baseurl:  
@@ -25,4 +25,4 @@ plugins:
 target-blank:
     rel: nofollow
 
-header_page_refs: ['research', 'people', 'contact']
+header_page_refs: ['research', 'people', 'publication' 'contact']
