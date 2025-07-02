@@ -7,7 +7,7 @@ ref: people
 order: 0
 ---
 
-![image](./image/HongYoungsun.jpg)
+![image](./image/HongYoungsun.jpg){: width="50" height="50"}{: .right}
 
 #### Education
 - Ph.D. in Department of Mechanical & Aerospace Engineering, Seoul National University, 2011. 08
