@@ -7,8 +7,13 @@ ref: people
 order: 0
 ---
 
-
-<img src="/image/HongYoungsun.jpg" width="30%" height="30%">
+<div>
+  <img src="/image/HongYoungsun.jpg" width="30%" height="30%">
+  <p> ## Hong Youngsun
+  <p> Assistant Professor
+  <p> Jeonbuk National University, IT Convergence Mechatronics Engineering  
+  <p> e-mail) redysun@jbnu.ac.kr
+  <p> Office) 063-472-2899
 
 [Google Scholar](https://scholar.google.com/citations?user=FTExVZIAAAAJ&hl=ko)
 
