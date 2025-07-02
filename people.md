@@ -14,8 +14,7 @@ order: 0
   <br> &nbsp;&nbsp;   Jeonbuk National University
   <br> &nbsp;&nbsp;   IT Convergence Mechatronics Engineering
   <br> &nbsp;&nbsp;   e-mail) redysun@jbnu.ac.kr
-  <br> &nbsp;&nbsp;   office) 063-472-2899
-  <br> &nbsp;&nbsp;   ![Google Scholar](https://scholar.google.com/citations?user=FTExVZIAAAAJ&hl=ko)</p>  
+  <br> &nbsp;&nbsp;   office) 063-472-2899</p>  
 </div>
 
 ![Google Scholar](https://scholar.google.com/citations?user=FTExVZIAAAAJ&hl=ko)
