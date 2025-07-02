@@ -9,11 +9,11 @@ order: 0
 
 <div style="display: flex; align-items: left;">
   <img src="/image/HongYoungsun.jpg" width="30%" height="30%">
-  <p style="white-space: pre-line:"> Hong Youngsun
+  <p><pre> Hong Youngsun
   <br> Assistant Professor
   <br> Jeonbuk National University, IT Convergence Mechatronics Engineering
   <br> e-mail) redysun@jbnu.ac.kr
-  <br> office) 063-472-2899</p>
+  <br> office) 063-472-2899</pre></p>
 </div>
 
 [Google Scholar](https://scholar.google.com/citations?user=FTExVZIAAAAJ&hl=ko)
