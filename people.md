@@ -9,7 +9,7 @@ order: 0
 
 <div style="display: flex; align-items: left;">
   <img src="/image/HongYoungsun.jpg" width="30%" height="30%">
-  <p>  &nbsp;&nbsp;   <span style="font-weight: bold; color: red;">Hong Youngsun</span>
+  <p style="font-weight: bold; color: red;">  &nbsp;&nbsp;   Hong Youngsun</p>
   <br> &nbsp;&nbsp;   Assistant Professor
   <br> &nbsp;&nbsp;   Jeonbuk National University
   <br> &nbsp;&nbsp;   IT Convergence Mechatronics Engineering
