@@ -10,7 +10,7 @@ order: 0
 
 <img src="/image/HongYoungsun.jpg" width="30%" height="30%">
 
-Visit https://scholar.google.com/citations?user=FTExVZIAAAAJ&hl=ko
+[Google Scholar](https://scholar.google.com/citations?user=FTExVZIAAAAJ&hl=ko)
 
 ### Education
 - Ph.D. in Department of Mechanical & Aerospace Engineering, Seoul National University, 2011. 08
