@@ -8,7 +8,7 @@ order: 0
 ---
 
 <p aligh="right">
-<img src="/image/HongYoungsun.jpg" width="80" height="80%">
+<img src="/image/HongYoungsun.jpg" width="100" height="100%">
 </p>
 
 #### Education
