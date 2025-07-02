@@ -7,9 +7,9 @@ ref: people
 order: 0
 ---
 
-<div>
+<div style="display: flex; align-items: left;">
   <img src="/image/HongYoungsun.jpg" width="30%" height="30%">
-  <p> __Hong Youngsun__ </p>
+  <p>Hong Youngsun</p>
   <p>Assistant Professor</p>
   <p>Jeonbuk National University, IT Convergence Mechatronics Engineering</p>
   <p>e-mail) redysun@jbnu.ac.kr</p>
