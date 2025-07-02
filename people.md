@@ -9,8 +9,9 @@ order: 0
 
 <div style="display: flex; align-items: left;">
   <img src="/image/HongYoungsun.jpg" width="30%" height="30%">
-  <p>  &nbsp;&nbsp;   Hong Youngsun</p>
-  <p> &nbsp;&nbsp;   Assistant Professor
+  <p>  &nbsp;&nbsp;   Hong Youngsun
+  <br>
+  <br> &nbsp;&nbsp;   Assistant Professor
   <br> &nbsp;&nbsp;   Jeonbuk National University
   <br> &nbsp;&nbsp;   IT Convergence Mechatronics Engineering
   <br> &nbsp;&nbsp;   e-mail) redysun@jbnu.ac.kr
