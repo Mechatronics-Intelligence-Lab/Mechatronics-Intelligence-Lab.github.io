@@ -10,6 +10,10 @@ order: 0
 <div style="display: flex; align-items: left;">
   <img src="/image/HongYoungsun.jpg" width="30%" height="30%">
   <p>Hong Youngsun</p>
+  <p>Assistant Professor</p>
+  <p>Jeonbuk National University, IT Convergence Mechatronics Engineering</p>
+  <p>e-mail) redysun@jbnu.ac.kr</p>
+  <p>office) 063-472-2899</p>
 </div>
 
 [Google Scholar](https://scholar.google.com/citations?user=FTExVZIAAAAJ&hl=ko)
