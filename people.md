@@ -8,7 +8,8 @@ order: 0
 ---
 
 <p aligh="right">
-<img src="/image/HongYoungsun.jpg" width="20" height="20%">
+<img src="/image/HongYoungsun.jpg" width="80" height="80%">
+</p>
 
 #### Education
 - Ph.D. in Department of Mechanical & Aerospace Engineering, Seoul National University, 2011. 08
