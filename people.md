@@ -8,7 +8,7 @@ order: 0
 ---
 
 <div style="display: flex; align-items: left;">
-  <img src="/image/HongYoungsun.jpg" width="100" height="100">
+  <img src="/image/HongYoungsun.jpg" width="100" height="120">
   <p style="white-space: pre-line:"> Hong Youngsun
   <br> Assistant Professor
   <br> Jeonbuk National University, IT Convergence Mechatronics Engineering
