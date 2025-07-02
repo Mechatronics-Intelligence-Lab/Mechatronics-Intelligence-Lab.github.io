@@ -9,7 +9,7 @@ order: 0
 
 <div>
   <img src="/image/HongYoungsun.jpg" width="30%" height="30%">
-  <p>**Hong Youngsun**</p>
+  <p> __Hong Youngsun__ </p>
   <p>Assistant Professor</p>
   <p>Jeonbuk National University, IT Convergence Mechatronics Engineering</p>
   <p>e-mail) redysun@jbnu.ac.kr</p>
