@@ -11,7 +11,8 @@ order: 0
   <img src="/image/HongYoungsun.jpg" width="30%" height="30%">
   <p>  &nbsp;&nbsp;   Hong Youngsun
   <br> &nbsp;&nbsp;   Assistant Professor
-  <br> &nbsp;&nbsp;   Jeonbuk National University, IT Convergence Mechatronics Engineering
+  <br> &nbsp;&nbsp;   Jeonbuk National University
+  <br> &nbsp;&nbsp;   IT Convergence Mechatronics Engineering
   <br> &nbsp;&nbsp;   e-mail) redysun@jbnu.ac.kr
   <br> &nbsp;&nbsp;   office) 063-472-2899</p>
 </div>
