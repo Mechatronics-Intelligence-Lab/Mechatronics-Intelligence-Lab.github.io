@@ -13,7 +13,7 @@ order: 0
 <ol>
   {% for paper in publications %}
     <li>
-      {{ paper.title }}, {{ paper.author }}, <i>{{ paper.journal }}</i>, [{{ paper.date | date: "%Y"  }}] 
+      {{ paper.title }}, {{ paper.author }}, <i>{{ paper.journal }}</i> [{{ paper.date | date: "%Y"  }}] 
     </li>
   {% endfor %}
 </ol>
@@ -24,7 +24,7 @@ order: 0
 <ol>
   {% for paper in conference %}
     <li>
-      {{ paper.title }}, {{ paper.location }}, [{{ paper.date | date: "%Y"  }}] 
+      {{ paper.title }}, {{ paper.location }} [{{ paper.date | date: "%Y"  }}] 
     </li>
   {% endfor %}
 </ol>
