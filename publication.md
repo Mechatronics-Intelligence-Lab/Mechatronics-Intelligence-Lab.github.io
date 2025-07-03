@@ -28,3 +28,15 @@ order: 0
     </li>
   {% endfor %}
 </ol>
+
+
+###  Patent
+
+{% assign patent = site.data.patent | sort: "date" | reverse %}
+<ol>
+  {% for paper in patent %}
+    <li>
+      ({{ paper.state }}) {{ paper.title }}, {{ paper.author }}, [{{ paper.date | date: "%Y"  }}] 
+    </li>
+  {% endfor %}
+</ol>
