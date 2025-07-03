@@ -20,7 +20,7 @@ Email: [redysun@jbnu.ac.kr](mailto:redysun@jbnu.ac.kr)
 
 ### 지도
 
-<iframe class="map" src="https://map2.daum.net/map/mapservice?FORMAT=PNG&SCALE=2.5&MX=529930&MY=652590&S=0&IW=504&IH=310&LANG=0&COORDSTM=WCONGNAMUL&logo=kakao_logo" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe width="100%" height="600" class="map" src="https://map2.daum.net/map/mapservice?FORMAT=PNG&SCALE=2.5&MX=529930&MY=652590&S=0&IW=504&IH=310&LANG=0&COORDSTM=WCONGNAMUL&logo=kakao_logo" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 
 </div>
