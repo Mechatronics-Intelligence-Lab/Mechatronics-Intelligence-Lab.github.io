@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-tagline: 주소
+tagline: 주소 및 연락처
 ref: contact
 order: 1
 ---
