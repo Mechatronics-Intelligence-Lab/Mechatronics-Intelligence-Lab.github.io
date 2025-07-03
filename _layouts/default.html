@@ -129,6 +129,23 @@
 <!--                     </a> -->
 <!--                 </span> -->
 <!--                 {% endif %} -->
+
+        <div class="container">
+				<div class="row">
+					<div class="col-xs-12 sponsors">
+						{% assign sponsors = site.data.sponsors -%}
+							{% for sponsor in sponsors %}
+								{% if sponsor.url %}<a href="{{ sponsor.url }}">{% endif %}<img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.image }}" title="{{ sponsor.name }}">{% if sponsor.url %}</a>{% endif %}
+							{% endfor %}
+					</div>
+					<div class="col-xs-12 col-md-5 col-lg-4 col-md-offset-1 col-lg-offset-2">
+						<p class="copyright">&copy; David Howey {{ 'now' | date: "%Y" }}</p>
+					</div>
+					<div class="col-xs-12 col-md-5 col-lg-4">
+						<p class="site-credit">Website by <a href="http://danlovell.com">Dan Lovell</a></small>
+					</div>
+				</div>
+			</div>
                 
             </footer>
         </section>
