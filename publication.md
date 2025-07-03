@@ -20,4 +20,11 @@ order: 0
 
 ### Conference
 
-[1] PHM Korea 2025 정기학술대회, 제주, 부영호텔, 2025.06.23~25
+{% assign conference = site.data.conference | sort: "date" | reverse %}
+<ol>
+  {% for paper in conference %}
+    <li>
+      {{ paper.title }}, {{ paper.location }}, [{{ paper.date | date: "%Y"  }}] 
+    </li>
+  {% endfor %}
+</ol>
