@@ -36,7 +36,7 @@ order: 0
 <ol>
   {% for paper in patent %}
     <li>
-      ({{ paper.state }}) {{ paper.title }}, {{ paper.author }}, [{{ paper.date | date: "%Y"  }}] 
+      ({{ paper.state }}) {{ paper.title }}, {{ paper.author }} [{{ paper.date | date: "%Y"  }}] 
     </li>
   {% endfor %}
 </ol>
