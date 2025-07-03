@@ -97,8 +97,8 @@
   	<footer class="site-footer">
         	<div class="container">
 			<div class="row">
-				<div class="col-xs-12 sponsors">
-					<img src="/image/HongYoungsun.jpg" width="30%" height="30%">
+				<div class="col-xs-12 sponsors">					
+					<a href="{{ sponsor.url }}" target="_blank" rel="noopener">{% endif %}<img src="{{ site.baseurl }}/image/sponsors/{{ sponsor.image }}" title="{{ sponsor.name }}" alt="{{sponsor.name}}">{% if sponsor.url %}</a>
 <!-- 					{% assign sponsors = site.data.sponsors -%} -->
 <!-- 						{% for sponsor in sponsors %} -->
 <!-- 							{% if sponsor.url %}<a href="{{ sponsor.url }}" target="_blank" rel="noopener">{% endif %}<img src="{{ site.baseurl }}/image/sponsors/{{ sponsor.image }}" title="{{ sponsor.name }}" alt="{{sponsor.name}}">{% if sponsor.url %}</a>{% endif %} -->
