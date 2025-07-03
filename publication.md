@@ -13,7 +13,7 @@ order: 0
 <ol>
   {% for paper in publications %}
     <li>
-      [{{ paper.date }}] {{ paper.title }}, <i>{{ paper.journal }}</i>
+      &lt;{{ forloop.index }}&gt; {{ paper.title }}, {{ paper.author }}, <i>{{ paper.journal }}</i>, [{{ paper.date | date: "%Y"  }}] 
     </li>
   {% endfor %}
 </ol>
