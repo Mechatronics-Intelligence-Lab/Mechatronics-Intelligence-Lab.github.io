@@ -15,18 +15,18 @@ ref: people
 <h3>{{group.role}}</h3>
 <ul class="no-bullet">
 	{% for person in group.people %}
-		<li id="{{person.name | downcase | replace: ' ', '-'}}">			
-			<div class="person-row">				
+		<li id="{{person.name | downcase | replace: ' ', '-'}}">
+			<div class="person-row">
 				<div class="photo">
-					<img src="{{ site.baseurl }}/img/people/{{person.image}}" title="{{person.name}}{% if person.image-credit %} (image credit: {{ person.image-credit }}){% endif %}">
-					<h5 class="name sm-bottom-margin">{{person.name}}{% if person.title %} <span>{{person.title}}</span>{% endif %}</h5>
+					<img class="pi-photo" src="{{ site.baseurl }}/img/people/{{person.image}}" title="{{person.name}}{% if person.image-credit %} (image credit: {{ person.image-credit }}){% endif %}">
 				</div>
-				<div class="details" >
-					{% if person.bio %}<p class="sm-top-margin">{{person.bio}}</p>{% endif %}
-				</div>
-    
-				<div class="details" >
-					{% if person.bio %}<p class="sm-top-margin">{{person.bio}}</p>{% endif %}
+				<div class="details">
+					<h5 class="name sm-bottom-margin">
+						{{person.name}}{% if person.title %} <span>{{person.title}}</span>{% endif %}
+					</h5>
+					{% if person.bio %}
+					<p class="sm-top-margin">{{person.bio}}</p>
+					{% endif %}
 				</div>
 			</div>
 		</li>
