@@ -24,9 +24,11 @@ ref: people
 					<h5 class="name sm-bottom-margin">
 						{{person.name}}{% if person.title %} <span>{{person.title}}</span>{% endif %}
 					</h5>
+					<div class="details">
 					{% if person.bio %}
 					<p class="sm-top-margin">{{person.bio}}</p>
 					{% endif %}
+					</div>
 				</div>
 			</div>
 		</li>
