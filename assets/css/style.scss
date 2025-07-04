@@ -2,3 +2,10 @@
 ---
 
 @import 'jekyll-theme-cayman-blog';
+
+
+/* 사이트 전체 폭을 넓히기 위한 설정 */
+.container {
+  max-width: 1200px;  /* 기본은 960px 정도 → 넓히기 */
+  width: 100%;
+}
