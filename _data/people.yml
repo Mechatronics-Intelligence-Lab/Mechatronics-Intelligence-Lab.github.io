@@ -6,33 +6,32 @@
     image: 'HongYoungsun.jpg'
     bio: Youngsun Hong received the Ph.D. degree in mechanical and aerospace engineering from Seoul National University, Seoul, South Korea, in 2011. From 2011 to 2017, he worked with Samsung Heavy Industries, Seongnam, South Korea, where he developed smart ship fault diagnosis technologies. Since 2017, he has been serving as a Principal Researcher with Jeju Institute of Korea Institute of Industrial Technology, Jeju, South Korea. In 2021, he was appointed as the Director of the Future Mobility Demonstration Center, Jeju, South Korea. Additionally, he serves as the Chief Secretary of the PHM Society, leading various academic and industrial projects as an expert in e-mobility PHM
 
-- role: Post-doctoral researchers
+- role: Intern researcher
   people:
 
-  - name : Dr Nicola Courtier
-    image: 'HongYoungsun.jpg'
-    bio: Nicola is interested in the optimisation and analysis of battery models. She has an MMath from the University of Oxford and a PhD in Mathematical Sciences from Southampton University, and was awarded an EPSRC Doctoral Prize to do research on charge transport models of perovskite solar cells. Nicola previously studied the manufacture of battery electrodes in the Faraday Institution Nextrode project.
+  - name : No.1
+    image: 'Blank.jpg'
+    bio: Coming soon
 
-  - name : Dr Dibyendu Ghosh
-    image: 'HongYoungsun.jpg'
-    bio: Dibyendu earned his Ph.D. in Mechanical Engineering from IIT Kharagpur in Fluid Mechanics and Thermal Sciences. Before joining Oxford, he was awarded the Shastri Research Student Fellowship (SRSF), enabling him to conduct interdisciplinary research at McMaster University in biomedical engineering. Dibyendu's current research focuses on evaluating the performance of equivalent circuit and physics-based electrochemical models using various open-source platforms.
+  - name : No.2
+    image: 'Blank.jpg'
+    bio: Coming soon
 
 - role: Graduate students
   people:
 
-  - name: Masaki Adachi
-    image: 'HongYoungsun.jpg'
-    bio: Masaki belongs to the Machine Learning Research Group in Information Engineering, and is applying his ML techniques to batteries. Formerly he was a simulation engineer and a data scientist for batteries at a car manufacturer for over 6 years; now, he is tackling distilling his industrial knowledge to academic wisdom. He loves driving with his cool electric vehicle.
+  - name: No.1
+    image: 'Blank.jpg'
+    bio: Coming soon
 
-  - name: Blanka Gaál
-    image: 'HongYoungsun.jpg'
-    bio: Blanka completed her masters degree in Natural Sciences at the University of Exeter and brings her interdisciplinary background and previous industry experience as a battery software engineer into physics-based modelling of novel lithium-ion chemistries, focusing on LMFP cells. In her spare time she enjoys playing tennis among other sports, as well as classical music and a nice cup of coffee.
+  - name: No.2
+    image: 'Blank.jpg'
+    bio: Coming soon
 
-  - name: Nora Gu
-    image: 'HongYoungsun.jpg'
-    bio: Nora is interested in applying machine learning methods to renewable energy. Previously, she studied chemical engineering at McGill University. During her spare time, she likes to paint and travel.
-
+  - name: No.3
+    image: 'Blank.jpg'
+    bio: Coming soon
+    
 - role: Alumni
   people:
-  - Dr Philipp Dechent, Senior Research Engineer at Toshiba
-  - Dr Taeho Jung, Post-Doctoral Researcher at University of Maryland
+  - To be Updated
