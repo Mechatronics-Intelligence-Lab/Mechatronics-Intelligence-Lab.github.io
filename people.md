@@ -27,9 +27,7 @@ ref: people
 					{% if person.bio %}
 					<p class="sm-top-margin">{{person.bio}}</p>
 					{% endif %}
-				</div>
-     
-				</div>
+				</div>				
 			</div>
 		</li>
 	{% endfor %}
