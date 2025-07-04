@@ -55,10 +55,6 @@ ref: people
 
 ### Joining the group
 
-Post-doctoral positions will be [advertised](https://eng.ox.ac.uk/jobs/) via the department's website.
-
-Applications for graduate study are always welcome, however before making contact, applicants should consider carefully whether their interests are aligned with this group, how their study might be funded, and whether they meet the department and university admissions criteria. Further details may be found at the [Department of Engineering Science website](https://www.eng.ox.ac.uk/study/postgraduate/courses/).
-We are not able to host internship students and will not reply to emails requesting internships. 
-
+Applications for graduate study are always welcome, however before making contact, applicants should consider carefully whether their interests are aligned with this group, how their study might be funded, and whether they meet the department and university admissions criteria.
 </div>
 </div>
