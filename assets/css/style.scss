@@ -67,6 +67,13 @@
   min-width: 300px;
 }
 
+.person-row .photo .name {
+  text-align: center;
+  font-size: 1.2em;
+  color: #15803d;
+  margin-top: 10px;
+}
+
 /* Post-doc grid */
 .image-grid:not(.principal-investigator) ul.no-bullet {
   display: grid;
