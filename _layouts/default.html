@@ -99,7 +99,7 @@
   	<footer class="site-footer">
         	<div class="container">
 			<div class="row">
-				<div class="header-content col-xs-12 col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2">
+				<div class="header-content col-xs-12 col-md-12 col-lg-12">
 					{% assign sponsors = site.data.sponsors -%}
 						{% for sponsor in sponsors %}
 							{% if sponsor.url %}<a href="{{ sponsor.url }}" target="_blank" rel="noopener">{% endif %}<img src="{{ site.baseurl }}/image/sponsors/{{ sponsor.image }}" title="{{ sponsor.name }}" alt="{{sponsor.name}}" style="width: 100px; height:auto;">{% if sponsor.url %}</a>{% endif %}
