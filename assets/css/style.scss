@@ -13,9 +13,9 @@
   padding-left: 30px !important;
   padding-right: 30px !important;
   box-sizing: border-box;
+  background-color: rgba(255, 0, 0, 0.05);
 }
 
-/* main-content 안 container도 커지도록 */
 .main-content > .container {
   width: 100% !important;
   max-width: 1600px !important;
@@ -24,9 +24,9 @@
   padding-left: 30px !important;
   padding-right: 30px !important;
   box-sizing: border-box;
+  background-color: rgba(0, 0, 255, 0.05);
 }
 
-/* footer container도 넓히기 */
 .site-footer .container {
   max-width: 1600px !important;
   width: 100% !important;
@@ -35,4 +35,5 @@
   padding-left: 30px !important;
   padding-right: 30px !important;
   box-sizing: border-box;
+  background-color: rgba(0, 255, 0, 0.05);
 }
