@@ -4,8 +4,11 @@
 @import 'jekyll-theme-cayman-blog';
 
 
-/* 사이트 전체 폭을 넓히기 위한 설정 */
+.main-content,
+.page-header,
 .container {
-  max-width: 1200px;  /* 기본은 960px 정도 → 넓히기 */
-  width: 100%;
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 30px;
+  padding-right: 30px;
 }
