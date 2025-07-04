@@ -28,10 +28,6 @@
     image: 'Blank.jpg'
     bio: Coming soon
 
-  - name: No.3
-    image: 'Blank.jpg'
-    bio: Coming soon
-    
 - role: Alumni
   people:
   - To be Updated
