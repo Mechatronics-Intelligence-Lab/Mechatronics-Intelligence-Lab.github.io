@@ -53,7 +53,7 @@ ref: people
 <div class="row">
 <div class="col-xs-12 col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2" markdown="1">
 
-#### Joining the group
+### Joining the group
 
 Post-doctoral positions will be [advertised](https://eng.ox.ac.uk/jobs/) via the department's website.
 
