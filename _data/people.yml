@@ -1,35 +1,35 @@
 - role: Principal investigator
   people:
 
-  - name: David Howey
+  - name: Hong Youngsun
     title: Professor of Engineering Science
-    image: 'David-Howey.jpg'
+    image: 'HongYoungsun.jpg'
     bio: David Howey PhD MA MEng SMIEEE is Professor of Engineering Science at the University of Oxford, and Official Fellow at St Hilda’s College, Oxford. He received the MEng degree in Electrical and Information Sciences from the University of Cambridge, UK, in 2002 and his PhD from Imperial College London, UK, in 2010, on the topic of thermal management of electrical machines. He was appointed to a faculty position at Oxford in 2011. During his doctoral research he pioneered a new electrical method to measure heat flux in electrical machines. As a post-doc at Imperial he developed and patented an impedance-based battery condition monitoring technique and worked on electrically assisted turbochargers. He was an Honorary Research Fellow at Imperial College London from 2011 to 2014 and winner of a Samsung Global Research Outreach award in 2012. He is on the editorial boards of EES Batteries and Oxford Open Energy and is an IEEE Senior Member and Member of the Electrochemical Society. He has co-authored over 125 peer-reviewed journal and conference papers, and filed 7 patents, and is the recipient of grant funding from EPSRC, the European Union, the Korean Government, InnovateUK, the Faraday Institution, and several companies. He is also co-founder of a spin-out company, <a href="https://brillpower.com/news/">Brill Power Ltd.</a>, and of the award-winning <a href="https://batterymodel.ox.ac.uk/">Oxford Battery Modelling Symposium</a>. He teaches a range of topics including electrochemical energy technology, and maths. <a href="https://www.ox.ac.uk/climate-and-environment/david-howey">Read more</a> about Prof Howey's research.
 
 - role: Post-doctoral researchers
   people:
 
   - name : Dr Nicola Courtier
-    image: 'Nicola-Courtier.jpg'
+    image: 'HongYoungsun.jpg'
     bio: Nicola is interested in the optimisation and analysis of battery models. She has an MMath from the University of Oxford and a PhD in Mathematical Sciences from Southampton University, and was awarded an EPSRC Doctoral Prize to do research on charge transport models of perovskite solar cells. Nicola previously studied the manufacture of battery electrodes in the Faraday Institution Nextrode project.
 
   - name : Dr Dibyendu Ghosh
-    image: 'blank.jpg'
+    image: 'HongYoungsun.jpg'
     bio: Dibyendu earned his Ph.D. in Mechanical Engineering from IIT Kharagpur in Fluid Mechanics and Thermal Sciences. Before joining Oxford, he was awarded the Shastri Research Student Fellowship (SRSF), enabling him to conduct interdisciplinary research at McMaster University in biomedical engineering. Dibyendu's current research focuses on evaluating the performance of equivalent circuit and physics-based electrochemical models using various open-source platforms.
 
 - role: Graduate students
   people:
 
   - name: Masaki Adachi
-    image: 'Masaki-Adachi.jpg'
+    image: 'HongYoungsun.jpg'
     bio: Masaki belongs to the Machine Learning Research Group in Information Engineering, and is applying his ML techniques to batteries. Formerly he was a simulation engineer and a data scientist for batteries at a car manufacturer for over 6 years; now, he is tackling distilling his industrial knowledge to academic wisdom. He loves driving with his cool electric vehicle.
 
   - name: Blanka Gaál
-    image: 'blank.jpg'
+    image: 'HongYoungsun.jpg'
     bio: Blanka completed her masters degree in Natural Sciences at the University of Exeter and brings her interdisciplinary background and previous industry experience as a battery software engineer into physics-based modelling of novel lithium-ion chemistries, focusing on LMFP cells. In her spare time she enjoys playing tennis among other sports, as well as classical music and a nice cup of coffee.
 
   - name: Nora Gu
-    image: 'blank.jpg'
+    image: 'HongYoungsun.jpg'
     bio: Nora is interested in applying machine learning methods to renewable energy. Previously, she studied chemical engineering at McGill University. During her spare time, she likes to paint and travel.
 
 - role: Alumni
