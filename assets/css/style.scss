@@ -35,8 +35,13 @@
   background-color: rgba(0, 0, 255, 0.05) !important;
 }
 
-/* 모든 person-row 에 flex 적용 */
-.person-row {
+
+/* PI 영역 가로 배치 */
+.image-grid.principal-investigator ul.no-bullet {
+  display: block;
+}
+
+.image-grid.principal-investigator ul.no-bullet > li .person-row {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -54,7 +59,7 @@
   width: 300px;
   height: auto;
   border-radius: 0;
-  margin: 0; /* 중앙정렬 제거 */
+  margin: 0;
 }
 
 .person-row .details {
@@ -62,8 +67,8 @@
   min-width: 300px;
 }
 
-/* grid 레이아웃 */
-.image-grid ul.no-bullet {
+/* Post-doc grid */
+.image-grid:not(.principal-investigator) ul.no-bullet {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 30px;
@@ -72,26 +77,24 @@
   margin: 30px 0;
 }
 
-/* grid 아이템 */
-.image-grid ul.no-bullet > li {
+.image-grid:not(.principal-investigator) ul.no-bullet > li {
   background-color: rgba(0, 0, 0, 0.03);
   padding: 20px;
   border-radius: 0;
   text-align: center;
 }
 
-/* grid 내부 person-row → 세로 정렬로 되돌리기 */
-.image-grid ul.no-bullet > li .person-row {
+.image-grid:not(.principal-investigator) ul.no-bullet > li .person-row {
   display: block;
 }
 
-.image-grid ul.no-bullet > li .photo {
+.image-grid:not(.principal-investigator) ul.no-bullet > li .photo {
   margin-bottom: 15px;
 }
 
-.image-grid ul.no-bullet > li .photo img {
+.image-grid:not(.principal-investigator) ul.no-bullet > li .photo img {
   width: 300px;
   height: auto;
-  border-radius: 0;
+  border-radius: 50%;
   margin: 0 auto;
 }
