@@ -18,7 +18,7 @@ ref: people
 		<li id="{{person.name | downcase | replace: ' ', '-'}}">
 			<div class="person-row">
 				<div class="photo">
-					<img class="pi-photo" src="{{ site.baseurl }}/img/people/{{person.image}}" title="{{person.name}}{% if person.image-credit %} (image credit: {{ person.image-credit }}){% endif %}">
+					<img class="pi-photo" src="{{ site.baseurl }}/iamge/people/{{person.image}}" title="{{person.name}}{% if person.image-credit %} (image credit: {{ person.image-credit }}){% endif %}">
 				</div>
 				<div class="details">
 					<h5 class="name sm-bottom-margin">
