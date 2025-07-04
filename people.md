@@ -3,6 +3,9 @@ layout: page
 title: People
 menu-order: 20
 hero-image-origin: 50% 40%
+tagline: Researcher
+permalink: /people.html
+ref: people
 ---
 <div class="row">
 {% assign people = site.data.people -%}
