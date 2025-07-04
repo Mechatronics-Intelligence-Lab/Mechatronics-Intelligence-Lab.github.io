@@ -13,7 +13,7 @@ ref: people
 {% if group.role != 'Alumni' %}
 <div class="image-grid {{group.role | downcase | replace: ' ', '-'}}">
 <h3>{{group.role}}</h3>
-<ul>
+<ul class="no-bullet">
 	{% for person in group.people %}
 		<li id="{{person.name | downcase | replace: ' ', '-'}}">
 			<div class="person-row">
