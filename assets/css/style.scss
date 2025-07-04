@@ -16,24 +16,14 @@
   background-color: rgba(255, 0, 0, 0.05);
 }
 
-.post, .page, .post-content, .page-content, .post-list, .main-content > .container {
+.post, .page, .post-content, .page-content, .post-list, .main-content, .site-footer > .container {
   width: 100% !important;
   max-width: 1200px !important;
   margin-left: auto !important;
   margin-right: auto !important;
   padding-left: 30px !important;
   padding-right: 30px !important;
-  box-sizing: border-box;
-  background-color: rgba(0, 0, 255, 0.05);
+  box-sizing: border-box !important; 
+  background-color: rgba(0, 0, 255, 0.05) !important;
 }
 
-.site-footer .container {
-  max-width: 1200px !important;
-  width: 100% !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  padding-left: 30px !important;
-  padding-right: 30px !important;
-  box-sizing: border-box;
-  background-color: rgba(0, 255, 0, 0.05);
-}
