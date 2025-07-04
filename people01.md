@@ -2,7 +2,7 @@
 layout: page
 title: People
 tagline: Researcher
-permalink: /people.html
+<!-- permalink: /people.html -->
 ref: people
 order: 0
 ---
