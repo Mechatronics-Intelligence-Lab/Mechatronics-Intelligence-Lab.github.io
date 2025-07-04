@@ -4,16 +4,24 @@
 @import 'jekyll-theme-cayman-blog';
 
 
-/* 전체 wrapper 폭 늘리기 */
-.wrapper {
-  max-width: 1200px !important;
+/* header wrapper 폭 풀기 */
+.site-header .wrapper {
+  max-width: none !important;
   width: 100% !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
   padding-left: 30px !important;
   padding-right: 30px !important;
-  box-sizing: border-box;
-  background-color: rgba(255, 0, 0, 0.05);
+  box-sizing: border-box !important;
+  background-color: rgba(255, 192, 203, 0.2) !important; /* 확인용 연핑크 */
+}
+
+/* header 자체도 폭 풀기 */
+.site-header {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
 }
 
 .post, .page, .post-content, .page-content, .post-list, .main-content, .site-footer > .container {
