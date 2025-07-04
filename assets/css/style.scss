@@ -35,3 +35,60 @@
   background-color: rgba(0, 0, 255, 0.05) !important;
 }
 
+/* 모든 person-row 에 flex 적용 */
+.person-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.person-row .photo {
+  flex: 0 0 200px;
+}
+
+.person-row .photo img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.person-row .details {
+  flex: 1 1 0;
+  min-width: 300px;
+}
+
+/* grid 레이아웃 */
+.image-grid ul.no-bullet {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 30px 0;
+}
+
+/* grid 아이템 */
+.image-grid ul.no-bullet > li {
+  background-color: rgba(0, 0, 0, 0.03);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* grid 내부 person-row → 세로 정렬로 되돌리기 */
+.image-grid ul.no-bullet > li .person-row {
+  display: block;
+}
+
+.image-grid ul.no-bullet > li .photo {
+  margin-bottom: 15px;
+}
+
+.image-grid ul.no-bullet > li .photo img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  margin: 0 auto;
+}
