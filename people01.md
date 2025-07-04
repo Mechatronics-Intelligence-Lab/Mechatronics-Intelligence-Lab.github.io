@@ -1,8 +1,8 @@
 ---
 layout: page
 title: People
-tagline: Researcher
-<!-- permalink: /people.html -->
+<!-- tagline: Researcher -->
+permalink: /people.html
 ref: people
 order: 0
 ---
