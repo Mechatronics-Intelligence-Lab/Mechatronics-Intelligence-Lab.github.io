@@ -42,16 +42,18 @@
   gap: 30px;
   align-items: flex-start;
   margin-bottom: 40px;
+  text-align: left;
 }
 
 .person-row .photo {
-  flex: 0 0 200px;
+  flex: 0 0 auto;
 }
 
-.person-row .photo img {
+.person-row .photo img.pi-photo {
   width: 300px;
   height: auto;
   border-radius: 0;
+  margin: 0; /* 중앙정렬 제거 */
 }
 
 .person-row .details {
