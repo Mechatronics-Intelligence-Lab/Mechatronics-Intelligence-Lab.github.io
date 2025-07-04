@@ -3,7 +3,7 @@ layout: page
 title: People
 tagline: Researcher
 <!-- permalink: /people.html -->
-ref: people
+<!-- ref: people  -->
 order: 0
 ---
 
