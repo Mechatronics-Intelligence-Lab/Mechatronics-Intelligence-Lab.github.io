@@ -18,6 +18,8 @@ order: 0
   {% endfor %}
 </ol>
 
+<hr>
+
 ### Conference
 
 {% assign conference = site.data.conference | sort: "date" | reverse %}
@@ -29,6 +31,7 @@ order: 0
   {% endfor %}
 </ol>
 
+<hr>
 
 ###  Patent
 
