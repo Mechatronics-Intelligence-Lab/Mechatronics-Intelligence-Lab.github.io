@@ -5,7 +5,7 @@ tagline: 주요 연구분야
 permalink: /research.html
 ref: research
 order: 2
-main_image: /images/main/EV.jpg
+main_image: /image/main/EV.jpg
 ---
 
 We're interested mainly in energy storage systems for automotive, grid, and off-grid applications. Lithium-ion batteries are a key area, but we also investigate lead-acid batteries, supercapacitors, flow batteries, and fuel cells. We collaborate widely with industry, and the spin-out company Brill Power was founded to exploit our research on smart battery systems
