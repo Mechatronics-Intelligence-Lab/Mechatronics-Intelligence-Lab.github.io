@@ -5,6 +5,7 @@ tagline: 논문 및 학술대회
 permalink: /publication.html
 ref: publication
 order: 0
+main_image: /image/main/EV.jpg
 ---
 
 ### Paper
