@@ -6,6 +6,7 @@ hero-image-origin: 50% 40%
 tagline: Researcher
 permalink: /people.html
 ref: people
+main_image: /image/main/EV.jpg
 ---
 <div class="row">
 {% assign people = site.data.people -%}
