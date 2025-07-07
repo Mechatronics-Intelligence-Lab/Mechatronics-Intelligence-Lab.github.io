@@ -23,6 +23,15 @@
   margin-top: 56px;
 }
 
+.site-header a {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+.site-header a:hover {
+  color: #ffd700 !important;
+}
+
 
 /* header wrapper 폭 풀기 */
 .site-header .wrapper {
