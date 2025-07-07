@@ -4,6 +4,7 @@ title: Contact
 tagline: 주소 및 연락처
 ref: contact
 order: 1
+main_image: /image/main/EV.jpg
 ---
 
 
