@@ -18,7 +18,7 @@
     {% endif %}
     <p class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {% raw %}{% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}{% endraw %}
+        {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
         {{ page.date | date: date_format }}
       </time>
       {% if page.author %}
