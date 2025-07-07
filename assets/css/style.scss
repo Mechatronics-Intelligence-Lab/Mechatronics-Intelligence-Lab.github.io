@@ -10,7 +10,7 @@
   left: 0;
   right: 0;
   z-index: 999;
-  background: rgba(255, 192, 203, 0.2) !important;
+  background: #a5004e !important;
   border-bottom: 1px solid #ddd;
 }
 
@@ -20,7 +20,7 @@
 
 /* Add spacing below fixed header for hero section */
 .page-header {
-  margin-top: 58px;
+  margin-top: 56px;
 }
 
 
@@ -33,7 +33,7 @@
   padding-left: 30px !important;
   padding-right: 30px !important;
   box-sizing: border-box !important;
-  background-color: rgba(255, 192, 203, 0.2) !important; /* 확인용 연핑크 */
+  background-color: #a5004e !important; /* 확인용 연핑크 */
 }
 
 /* header 자체도 폭 풀기 */
