@@ -1,8 +1,10 @@
+---
+layout: default
+---
+
 <article itemscope itemtype="http://schema.org/BlogPosting">
 
-  <!-- Hero header section -->
   <section class="page-header"
-    {% raw %}
     {% if page.main_image %}
       style="background:
         linear-gradient(rgba(0, 44, 95, 0.5), rgba(0, 44, 95, 0.5)),
@@ -10,26 +12,16 @@
     {% else %}
       style="background: linear-gradient(120deg, #007acc, #17a27c);"
     {% endif %}
-    {% endraw %}
   >
     <h1 class="project-name">{{ page.title }}</h1>
-    {% if page.tagline %}
-      <h2 class="project-tagline">{{ page.tagline }}</h2>
-    {% endif %}
     <p class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
+      {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
+      <time datetime="{{ page.date | date_to_xmlschema }}">
         {{ page.date | date: date_format }}
       </time>
-      {% if page.author %}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <span itemprop="name">{{ page.author }}</span>
-        </span>
-      {% endif %}
     </p>
   </section>
 
-  <!-- Post content -->
   <section class="main-content">
     <div class="container" itemprop="articleBody">
       {{ content }}
