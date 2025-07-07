@@ -33,6 +33,11 @@ ref: people
 	{% endfor %}
 </ul>
 </div>
+
+{% unless forloop.last %}
+  <hr style="border: none; border-top: 2px solid #157878; margin: 40px 0;">
+{% endunless %}
+ 
 {% else %}
 </div>
 <div class="row">
