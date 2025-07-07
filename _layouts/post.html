@@ -4,32 +4,30 @@ layout: default
 
 <article itemscope itemtype="http://schema.org/BlogPosting">
 
-  <section class="page-header"
-    {% if page.main_image %}
-      style="background:
-        linear-gradient(rgba(0, 44, 95, 0.5), rgba(0, 44, 95, 0.5)),
-        url('{{ page.main_image }}') center center / cover no-repeat;"
-    {% else %}
-      style="background: linear-gradient(120deg, #007acc, #17a27c);"
-    {% endif %}
-  >
-    <h1 class="project-name">{{ page.title }}</h1>
-    <p class="post-meta">
-      {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
-      <time datetime="{{ page.date | date_to_xmlschema }}">
-        {{ page.date | date: date_format }}
-      </time>
-    </p>
-  </section>
+<section class="main-content">
+  <div class="container post-detail" style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 30px;">
 
-  <section class="main-content">
-    <div class="container" itemprop="articleBody">
-      {{ content }}
+    <div class="post-text" style="flex: 1 1 400px;">
+      <h2 style="font-size: 1.5em; margin-top: 0; margin-bottom: 10px; text-align: left;">
+        {{ page.title }}
+      </h2>
+
+      <p style="font-size: 0.9em; color: #555; text-align: left; margin-top: 0;">
+        최신소식
+      </p>
+
+      <div itemprop="articleBody" style="text-align: left;">
+        {{ content }}
+      </div>
     </div>
-  </section>
 
-  {% if site.disqus.shortname %}
-    {% include disqus_comments.html %}
-  {% endif %}
+    {% if page.main_image %}
+    <div class="post-image" style="flex: 1 1 300px;">
+      <img src="{{ page.main_image }}" alt="{{ page.title }}" style="max-width: 100%; height: auto; border-radius: 5px;">
+    </div>
+    {% endif %}
+
+  </div>
+</section>
 
 </article>
