@@ -3,6 +3,13 @@
 
 @import 'jekyll-theme-cayman-blog';
 
+.page-header {
+  min-height: 300px;
+  padding: 80px 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
 /* --- Fix header to top --- */
 .site-header {
   position: fixed;
