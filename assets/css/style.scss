@@ -3,20 +3,24 @@
 
 @import 'jekyll-theme-cayman-blog';
 
-/* 헤더 고정 */
+/* --- Fix header to top --- */
 .site-header {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 999;
-  background: rgba(255, 192, 203, 0.2) !important; /* 네가 넣은 연핑크 배경 */
+  background: rgba(255, 192, 203, 0.2) !important;
   border-bottom: 1px solid #ddd;
 }
 
-/* 헤더 높이만큼 패딩 확보 */
 .main-content {
   padding-top: 80px !important;
+}
+
+/* Add spacing below fixed header for hero section */
+.page-header {
+  margin-top: 80px;
 }
 
 
