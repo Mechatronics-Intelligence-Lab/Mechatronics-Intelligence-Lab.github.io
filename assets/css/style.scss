@@ -148,4 +148,7 @@ ul.no-bullet {
 }
 
 
-
+/* 스크롤바 방지 */
+html, body {
+  overflow-x: hidden;
+}
