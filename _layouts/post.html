@@ -4,12 +4,23 @@ layout: default
 
 <article itemscope itemtype="http://schema.org/BlogPosting">
 
-<!-- ✅ POST CONTENT -->
 <section class="main-content">
-  <div class="container post-detail" style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 30px;">
+  <div class="container post-detail" style="
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 30px;
+    ">
 
     <div class="post-text" style="flex: 1 1 400px;">
-      <h2 style="font-size: 1.5em; margin-top: 0; margin-bottom: 10px; text-align: left;">
+      <h2 style="
+          font-size: 1.5em;
+          margin-top: 0;
+          margin-bottom: 10px;
+          text-align: left;
+          color: #007acc;
+        ">
         {{ page.title }}
       </h2>
 
@@ -23,8 +34,8 @@ layout: default
     </div>
 
     {% if page.main_image %}
-    <div class="post-image" style="flex: 1 1 300px;">
-      <img src="{{ page.main_image }}" alt="{{ page.title }}" style="max-width: 100%; height: auto; border-radius: 5px;">
+    <div class="post-image" style="flex: 0 0 300px;">
+      <img src="{{ page.main_image }}" alt="{{ page.title }}" style="width: 100%; height: auto; border-radius: 5px;">
     </div>
     {% endif %}
 
