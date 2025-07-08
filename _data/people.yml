@@ -1,9 +1,10 @@
 - role: Principal investigator
   people:
 
-  - name: [Google Scholar](https://scholar.google.com/citations?user=FTExVZIAAAAJ&hl=ko)
-    title:  
+  - name: Hong Youngsun
+    title: Assistant Professor
     image: 'HongYoungsun.jpg'
+    scholar_url: "https://scholar.google.com/citations?user=FTExVZIAAAAJ&hl=ko"
     bio: |
         Hong Youngsun
 
