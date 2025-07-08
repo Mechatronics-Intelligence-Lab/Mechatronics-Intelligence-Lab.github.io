@@ -45,3 +45,9 @@
   journal: "Energies"
   author: "Sang-Jun Park, Woo-Joong Kim, Byeong-Su Kang, Sung-Hyun Jang, Yeong-Jun Choi, Young-Sun Hong"
   IF: "3"
+
+- date: 2019-12-06
+  title: "Early fault diagnosis and classification of ball bearing using enhanced kurtogram and Gaussian mixture model"
+  journal: "IEEE Transactions on Instrumentation and Measurement"
+  author: "Youngsun Hong, Minsu Kim, Hyunho Lee, Jong Jin Park, Dongyeon Lee"
+  IF: "5.3"
