@@ -15,4 +15,5 @@ main_image: /image/main/EV.jpg
 <img src="/image/research/IntelEV.png" alt="연구 이미지" style="width: 1000px; display: block; margin: 20px auto;" />
 
 
-Positions are available for graduate research assistants and undergraduate internship. Highly motivated and dedicated students can contact Prof. [Hong Youngsun](mailto:redysun@jbnu.ac.kr). 
+대학원 연구 조교 및 학부 인턴십을 모집하고 있습니다.
+메카트로닉스 연구에 관심 있고 의욕적인 학생은 언제든지 [홍영선](mailto:redysun@jbnu.ac.kr) 교수에게 문의하시기 바랍니다.
