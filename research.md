@@ -14,8 +14,14 @@ We're interested mainly in energy storage systems for automotive, grid, and off-
 Energy storage systems present many interesting engineering research challenges in terms of control, integration, degradation, thermal management and dynamic modelling. Systems engineering can make a huge difference to performance. For example, properties such as state of charge and state of health are not directly measurable, so we require validated models to estimate these. Performance also deteriorates as a result of various degradation mechanisms, and the complexity and interactions of these mechanisms makes it difficult to predict decreases in battery capacity and power capabilities accurately. For more info on our work please click on the pictures below.
 
 
-## EV
+## EV & Battery
 
-## Battery
+<img src="/image/research/BatteryHeat.png" alt="연구 이미지" style="width: 1000px; display: block; margin: 20px auto;" />
+
+<img src="/image/research/BatteryPack.png" alt="연구 이미지" style="width: 1000px; display: block; margin: 20px auto;" />
+
+<img src="/image/research/DoD.png" alt="연구 이미지" style="width: 1000px; display: block; margin: 20px auto;" />
 
 ## Mechanical component 
+
+<img src="/image/research/Bearing.png" alt="연구 이미지" style="width: 1000px; display: block; margin: 20px auto;" />
