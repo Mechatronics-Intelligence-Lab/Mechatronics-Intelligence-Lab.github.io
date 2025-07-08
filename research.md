@@ -25,6 +25,6 @@ Energy storage systems present many interesting engineering research challenges 
 - 최적화된 방전심도(Depth of Discharge, DOD)제어 전략을 통해 에너지 효율 45% 및 안전성 개선 기술
 <img src="/image/research/DoD.png" alt="연구 이미지" style="width: 800px; display: block; margin: 20px auto;" />
 
-### Fault Diagnosis of Mechanical Component 
+### Fault Diagnosis of Mechatrnocis System Component 
 - 베어링 기계적 설계사양(베어링 치수 등) 및 운전정보(RPM 등) 없이 베어링의 고장 진단 기술
 <img src="/image/research/Bearing.png" alt="연구 이미지" style="width: 800px; display: block; margin: 20px auto;" />
