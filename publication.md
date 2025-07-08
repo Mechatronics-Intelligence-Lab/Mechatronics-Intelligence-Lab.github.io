@@ -45,3 +45,14 @@ main_image: /image/main/EV.jpg
     </li>
   {% endfor %}
 </ol>
+
+### Project
+
+{% assign project = site.data.project | sort: "date" | reverse %}
+<ol reversed style="padding-left: 1.5em;">
+  {% for paper in project %}
+    <li style="margin-bottom: 10px;">
+      ({{ paper.state }}) {{ paper.title }}, {{ paper.author }} [{{ paper.date | date: "%Y" }}]
+    </li>
+  {% endfor %}
+</ol>
