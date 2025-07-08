@@ -11,19 +11,39 @@ layout: default
   <div>&nbsp;</div>
 
   <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
+{% for post in site.posts %}
+  <li style="margin-bottom: 30px; list-style: none;">
+    <a href="{{ post.url | absolute_url }}" style="
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+        text-decoration: none;
+      ">
 
+      {% if post.main_image %}
+        <img src="{{ post.main_image }}" alt="{{ post.title | escape }}" style="
+            height: 100px;
+            border-radius: 5px;
+            flex-shrink: 0;
+        ">
+      {% endif %}
+
+      <div>
         {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <span class="post-meta" style="color:#666; font-size: 0.9em;">
+          {{ post.date | date: date_format }}
+        </span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | absolute_url }}" title="{{ post.title }}">{{ post.title | escape }}</a>
+        <h2 style="margin: 5px 0; color: #007acc; font-weight: normal;">
+          {{ post.title | escape }}
         </h2>
 
-        {{ post.excerpt | markdownify | truncatewords: 30 }}
-
-      </li>
+        <p style="margin: 0; color: #333;">
+          {{ post.excerpt | markdownify | strip_html | truncatewords: 30 }}
+        </p>
+      </div>
+    </a>
+  </li>
     {% endfor %}
   </ul>
 
