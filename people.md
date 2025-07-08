@@ -20,7 +20,9 @@ main_image: /image/main/EV.jpg
     <li id="{{person.name | downcase | replace: ' ', '-'}}">
       <div class="person-row">
         <div class="photo">
-          <img class="pi-photo" src="{{ site.baseurl }}/image/people/{{person.image}}" title="{{person.name}}{% if person.image-credit %} (image credit: {{ person.image-credit }}){% endif %}">
+          {% if person.image %}
+  <img class="pi-photo" src="{{ site.baseurl }}/image/people/{{person.image}}" alt="{{person.name}}">
+{% endif %}{% if person.image-credit %} (image credit: {{ person.image-credit }}){% endif %}">
           <h5 class="name sm-bottom-margin">
             {{person.name}}{% if person.title %} <span>{{person.title}}</span>{% endif %}
           </h5>
