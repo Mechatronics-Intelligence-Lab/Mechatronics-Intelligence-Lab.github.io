@@ -88,6 +88,8 @@ main_image: /image/main/EV.jpg
   <div class="col-xs-12 col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2" markdown="1">
 ### Joining the group
 
-Applications for graduate study are always welcome, however before making contact, applicants should consider carefully whether their interests are aligned with this group, how their study might be funded, and whether they meet the department and university admissions criteria.
+대학원과정에 관심있는 학생들을 환영합니다. 진학이나 연구 내용에 대해 궁금한 점이 있으면 언제든지 홍영선 교수에게 연락바랍니다.
+전화나 이메일을 통해 편하게 문의주시면 자세히 알려드리겠습니다. 
+
   </div>
 </div>
