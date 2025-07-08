@@ -4,7 +4,7 @@ page_title: "News"
 tagline: 최신소식
 hide_meta: true
 
-title: "Homepage Open"
+title: "Website Launch"
 main_image: /image/main/EV.jpg
 ---
 
