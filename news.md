@@ -8,16 +8,18 @@ order: 2
 main_image: /image/main/EV.jpg
 ---
 
-<ul>
+<div>
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">
+    <div style="margin-bottom: 30px;">
+      <a href="{{ post.url }}" style="display: flex; align-items: flex-start; gap: 20px; text-decoration: none;">
         {% if post.main_image %}
-          <img src="{{ post.main_image }}" alt="{{ post.title }}" style="height: 100px;">
+          <img src="{{ post.main_image }}" alt="{{ post.title }}" style="height: 100px; flex-shrink: 0;">
         {% endif %}
-        <h3>{{ post.title }}</h3>
+        <div>
+          <h3 style="margin: 0; color: #007acc;">{{ post.title }}</h3>
+          <p style="margin: 0; color: #333;">{{ post.excerpt }}</p>
+        </div>
       </a>
-      <p>{{ post.excerpt }}</p>
-    </li>
+    </div>
   {% endfor %}
-</ul>
+</div>
