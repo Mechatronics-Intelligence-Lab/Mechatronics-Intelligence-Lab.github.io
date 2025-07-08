@@ -27,7 +27,7 @@ main_image: /image/main/EV.jpg
         </div>
         {% if post.main_image %}
           <img src="{{ post.main_image }}" alt="{{ post.title }}"
-               style="height: 100px; flex-shrink: 0; border-radius: 5px;">
+               style="height: 200px; flex-shrink: 0; border-radius: 5px;">
         {% endif %}
       </a>
     </div>
