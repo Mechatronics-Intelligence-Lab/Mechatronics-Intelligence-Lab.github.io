@@ -12,7 +12,7 @@ main_image: /image/main/EV.jpg
 ### Paper
 
 {% assign publications = site.data.publications | sort: "date" | reverse %}
-<ol style="padding-left: 1.5em;">
+<ol reversed style="padding-left: 1.5em;">
   {% for paper in publications %}
     <li style="margin-bottom: 10px;">
       {{ paper.title }}, {{ paper.author }}, <i>{{ paper.journal }}</i> [{{ paper.date | date: "%Y" }}]
@@ -25,7 +25,7 @@ main_image: /image/main/EV.jpg
 ### Conference
 
 {% assign conference = site.data.conference | sort: "date" | reverse %}
-<ol style="padding-left: 1.5em;">
+<ol reversed style="padding-left: 1.5em;">
   {% for paper in conference %}
     <li style="margin-bottom: 10px;">
       {{ paper.title }}, {{ paper.location }} [{{ paper.date | date: "%Y" }}]
@@ -38,7 +38,7 @@ main_image: /image/main/EV.jpg
 ### Patent
 
 {% assign patent = site.data.patent | sort: "date" | reverse %}
-<ol style="padding-left: 1.5em;">
+<ol reversed style="padding-left: 1.5em;">
   {% for paper in patent %}
     <li style="margin-bottom: 10px;">
       ({{ paper.state }}) {{ paper.title }}, {{ paper.author }} [{{ paper.date | date: "%Y" }}]
