@@ -10,37 +10,38 @@ main_image: /image/main/EV.jpg
 
 ### Paper
 
+
 {% assign publications = site.data.publications | sort: "date" | reverse %}
-<ol>
+<ul style="list-style: none; padding-left: 0;">
   {% for paper in publications %}
     <li>
-      {{ paper.title }}, {{ paper.author }}, <i>{{ paper.journal }}</i> [{{ paper.date | date: "%Y"  }}] 
+      [{{ forloop.index }}] {{ paper.title }}, {{ paper.author }}, <i>{{ paper.journal }}</i> [{{ paper.date | date: "%Y" }}]
     </li>
   {% endfor %}
-</ol>
+</ul>
 
 <hr>
 
 ### Conference
 
 {% assign conference = site.data.conference | sort: "date" | reverse %}
-<ol>
+<ul style="list-style: none; padding-left: 0;">
   {% for paper in conference %}
     <li>
-      {{ paper.title }}, {{ paper.location }} [{{ paper.date | date: "%Y"  }}] 
+      [{{ forloop.index }}] {{ paper.title }}, {{ paper.location }} [{{ paper.date | date: "%Y" }}]
     </li>
   {% endfor %}
-</ol>
+</ul>
 
 <hr>
 
-###  Patent
+### Patent
 
 {% assign patent = site.data.patent | sort: "date" | reverse %}
-<ol>
+<ul style="list-style: none; padding-left: 0;">
   {% for paper in patent %}
     <li>
-      ({{ paper.state }}) {{ paper.title }}, {{ paper.author }} [{{ paper.date | date: "%Y"  }}] 
+      [{{ forloop.index }}] ({{ paper.state }}) {{ paper.title }}, {{ paper.author }} [{{ paper.date | date: "%Y" }}]
     </li>
   {% endfor %}
-</ol>
+</ul>
