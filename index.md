@@ -15,13 +15,10 @@ main_image: /image/main/EV.jpg
 <img src="/image/research/IntelEV.png" alt="연구 이미지" style="width: 1000px; display: block; margin: 20px auto;" />
 
 
-대학원 연구 조교 및 학부 인턴십을 모집하고 있습니다.
-메카트로닉스 연구에 관심 있고 의욕적인 학생은 언제든지 [홍영선](mailto:redysun@jbnu.ac.kr) 교수에게 문의하시기 바랍니다.
-
-<p style="color: #007BFF; font-size: 18px; font-weight: bold;">
+<p style="color: #800080; font-size: 18px; font-weight: bold;">
 대학원 연구 조교 및 학부 인턴십을 모집하고 있습니다.<br>
 메카트로닉스 연구에 관심 있고 열정적인 학생은 언제든지
-<a href="mailto:redysun@jbnu.ac.kr" style="color: #FF5733; font-weight: bold;">
+<a href="mailto:redysun@jbnu.ac.kr" style="color: #003366; font-weight: bold;">
 홍영선 교수
 </a>에게 문의해 주세요.
 </p>
