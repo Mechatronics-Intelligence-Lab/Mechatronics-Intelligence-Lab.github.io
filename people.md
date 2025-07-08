@@ -8,6 +8,7 @@ permalink: /people.html
 ref: people
 main_image: /image/main/EV.jpg
 ---
+
 <div class="row">
 {% assign people = site.data.people -%}
 {% for group in people %}
@@ -15,46 +16,54 @@ main_image: /image/main/EV.jpg
 <div class="image-grid {{group.role | downcase | replace: ' ', '-'}}">
 <h3>{{group.role}}</h3>
 <ul class="no-bullet">
-	{% for person in group.people %}
-		<li id="{{person.name | downcase | replace: ' ', '-'}}">
-			<div class="person-row">
-				<div class="photo">
-					<img class="pi-photo" src="{{ site.baseurl }}/image/people/{{person.image}}" title="{{person.name}}{% if person.image-credit %} (image credit: {{ person.image-credit }}){% endif %}">
-					<h5 class="name sm-bottom-margin">
-						{{person.name}}{% if person.title %} <span>{{person.title}}</span>{% endif %}
-					</h5>
-				</div>
-				<div class="details">
-					{% if person.bio %}
-					<div class="sm-top-margin">
-						{{ person.bio | markdownify }}
-					</div>
-					{% endif %}
-				</div>				
-			</div>
-		</li>
-	{% endfor %}
+  {% for person in group.people %}
+    <li id="{{person.name | downcase | replace: ' ', '-'}}">
+      <div class="person-row">
+        <div class="photo">
+          <img class="pi-photo" src="{{ site.baseurl }}/image/people/{{person.image}}" title="{{person.name}}{% if person.image-credit %} (image credit: {{ person.image-credit }}){% endif %}">
+          <h5 class="name sm-bottom-margin">
+            {{person.name}}{% if person.title %} <span>{{person.title}}</span>{% endif %}
+          </h5>
+
+          {% if person.scholar_url %}
+            <p style="margin-top: 10px;">
+              <a href="{{ person.scholar_url }}" target="_blank">Google Scholar</a>
+            </p>
+          {% endif %}
+        </div>
+
+        <div class="details">
+          {% if person.bio %}
+          <div class="sm-top-margin">
+            {{ person.bio | markdownify }}
+          </div>
+          {% endif %}
+        </div>        
+      </div>
+    </li>
+  {% endfor %}
 </ul>
 </div>
 
 {% unless forloop.last %}
   <hr style="border: none; border-top: 2px solid #157878; margin: 40px 0;">
 {% endunless %}
- 
+
 {% else %}
 </div>
 <div class="row">
-	<div class="col-xs-12" markdown="l">
-		<h3>{{group.role}}</h3>
-		<ul>
-		{% for person in group.people %}
-			<li>{{person}}</li>
-		{% endfor %}
-		</ul>
-	</div>
+  <div class="col-xs-12" markdown="1">
+    <h3>{{group.role}}</h3>
+    <ul>
+    {% for person in group.people %}
+      <li>{{person}}</li>
+    {% endfor %}
+    </ul>
+  </div>
 </div>
 {% endif %}
 {% endfor %}
+</div>
 
 ---
 
