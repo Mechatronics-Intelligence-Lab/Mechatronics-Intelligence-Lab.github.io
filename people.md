@@ -26,7 +26,9 @@ main_image: /image/main/EV.jpg
 				</div>
 				<div class="details">
 					{% if person.bio %}
-					<p class="sm-top-margin">{{person.bio}}</p>
+					<div class="sm-top-margin">
+						{{ person.bio | markdownify }}
+					</div>
 					{% endif %}
 				</div>				
 			</div>
