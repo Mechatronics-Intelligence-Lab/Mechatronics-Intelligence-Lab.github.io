@@ -9,47 +9,39 @@ main_image: /image/main/EV.jpg
 ---
 
 
-<style>
-.publication-item {
-  text-indent: -2em;         /* 번호만큼 내어쓰기 */
-  padding-left: 2em;         /* 들여쓰기 */
-  margin-bottom: 10px;
-}
-</style>
-
 ### Paper
 
 {% assign publications = site.data.publications | sort: "date" | reverse %}
-<div>
+<ol style="padding-left: 1.5em;">
   {% for paper in publications %}
-    <div class="publication-item">
-      [{{ forloop.index }}] {{ paper.title }}, {{ paper.author }}, <i>{{ paper.journal }}</i> [{{ paper.date | date: "%Y" }}]
-    </div>
+    <li style="margin-bottom: 10px;">
+      {{ paper.title }}, {{ paper.author }}, <i>{{ paper.journal }}</i> [{{ paper.date | date: "%Y" }}]
+    </li>
   {% endfor %}
-</div>
+</ol>
 
 <hr>
 
 ### Conference
 
 {% assign conference = site.data.conference | sort: "date" | reverse %}
-<div>
+<ol style="padding-left: 1.5em;">
   {% for paper in conference %}
-    <div class="publication-item">
-      [{{ forloop.index }}] {{ paper.title }}, {{ paper.location }} [{{ paper.date | date: "%Y" }}]
-    </div>
+    <li style="margin-bottom: 10px;">
+      {{ paper.title }}, {{ paper.location }} [{{ paper.date | date: "%Y" }}]
+    </li>
   {% endfor %}
-</div>
+</ol>
 
 <hr>
 
 ### Patent
 
 {% assign patent = site.data.patent | sort: "date" | reverse %}
-<div>
+<ol style="padding-left: 1.5em;">
   {% for paper in patent %}
-    <div class="publication-item">
-      [{{ forloop.index }}] ({{ paper.state }}) {{ paper.title }}, {{ paper.author }} [{{ paper.date | date: "%Y" }}]
-    </div>
+    <li style="margin-bottom: 10px;">
+      ({{ paper.state }}) {{ paper.title }}, {{ paper.author }} [{{ paper.date | date: "%Y" }}]
+    </li>
   {% endfor %}
-</div>
+</ol>
