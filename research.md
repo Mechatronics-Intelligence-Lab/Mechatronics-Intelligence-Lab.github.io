@@ -15,13 +15,12 @@ Energy storage systems present many interesting engineering research challenges 
 
 
 ## EV & Battery
-
 <img src="/image/research/BatteryHeat.png" alt="연구 이미지" style="width: 1000px; display: block; margin: 20px auto;" />
 
 <img src="/image/research/BatteryPack.png" alt="연구 이미지" style="width: 1000px; display: block; margin: 20px auto;" />
 
+## Optimal Control
 <img src="/image/research/DoD.png" alt="연구 이미지" style="width: 1000px; display: block; margin: 20px auto;" />
 
 ## Mechanical component 
-
 <img src="/image/research/Bearing.png" alt="연구 이미지" style="width: 1000px; display: block; margin: 20px auto;" />
