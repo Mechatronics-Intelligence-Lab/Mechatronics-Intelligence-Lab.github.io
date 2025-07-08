@@ -15,7 +15,7 @@ main_image: /image/main/EV.jpg
 <hr>
 
 <p style="color: #800080; font-size: 18px; font-weight: bold;">
-대학원 연구 조교 및 학부 인턴십을 모집하고 있습니다.<br>
+현재 우리 실험실에서 대학원 연구 조교 및 학부 인턴십을 모집하고 있습니다.<br>
 메카트로닉스 연구에 관심 있고 열정적인 학생은 언제든지
 <a href="mailto:redysun@jbnu.ac.kr" style="color: #003366; font-weight: bold;">
 홍영선 교수
