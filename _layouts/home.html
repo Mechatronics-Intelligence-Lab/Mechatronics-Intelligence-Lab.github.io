@@ -11,39 +11,44 @@ layout: default
   <div>&nbsp;</div>
 
   <ul class="post-list">
-{% for post in site.posts %}
-  <li style="margin-bottom: 30px; list-style: none;">
-    <a href="{{ post.url | absolute_url }}" style="
-        display: flex;
-        align-items: flex-start;
-        gap: 20px;
-        text-decoration: none;
-      ">
+    {% for post in site.posts %}
+      <li style="margin-bottom: 30px; list-style: none;">
+        <a href="{{ post.url | absolute_url }}" style="
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 20px;
+            text-decoration: none;
+          ">
 
-      {% if post.main_image %}
-        <img src="{{ post.main_image }}" alt="{{ post.title | escape }}" style="
-            height: 100px;
-            border-radius: 5px;
-            flex-shrink: 0;
-        ">
-      {% endif %}
+          <div style="flex: 1;">
+            {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
+            <span class="post-meta" style="color:#666; font-size: 0.9em;">
+              {{ post.date | date: date_format }}
+            </span>
 
-      <div>
-        {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta" style="color:#666; font-size: 0.9em;">
-          {{ post.date | date: date_format }}
-        </span>
+            <h2 style="margin: 5px 0; color: #007acc; font-weight: normal;">
+              {{ post.title | escape }}
+            </h2>
 
-        <h2 style="margin: 5px 0; color: #007acc; font-weight: normal;">
-          {{ post.title | escape }}
-        </h2>
+            <p style="margin: 0; color: #333;">
+              {{ post.excerpt | markdownify | strip_html | truncatewords: 30 }}
+            </p>
+          </div>
 
-        <p style="margin: 0; color: #333;">
-          {{ post.excerpt | markdownify | strip_html | truncatewords: 30 }}
-        </p>
-      </div>
-    </a>
-  </li>
+          {% if post.main_image %}
+            <div style="flex: 0 0 200px;">
+              <img src="{{ post.main_image }}" alt="{{ post.title | escape }}" style="
+                  width: 100%;
+                  height: auto;
+                  border-radius: 5px;
+                  flex-shrink: 0;
+              ">
+            </div>
+          {% endif %}
+
+        </a>
+      </li>
     {% endfor %}
   </ul>
 
