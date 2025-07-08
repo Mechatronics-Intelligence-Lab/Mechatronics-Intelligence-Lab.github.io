@@ -43,7 +43,7 @@ main_image: /image/main/EV.jpg
 </div>
 <div class="row">
 	<div class="col-xs-12" markdown="l">
-		<h5>{{group.role}}</h5>
+		<h3>{{group.role}}</h3>
 		<ul>
 		{% for person in group.people %}
 			<li>{{person}}</li>
