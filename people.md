@@ -50,16 +50,33 @@ main_image: /image/main/EV.jpg
 {% endunless %}
 
 {% else %}
-</div>
-<div class="row">
-  <div class="col-xs-12" markdown="1">
-    <h3>{{group.role}}</h3>
-    <ul>
+<div class="image-grid {{group.role | downcase | replace: ' ', '-'}}">
+  <h3>{{group.role}}</h3>
+  <ul class="no-bullet">
     {% for person in group.people %}
-      <li>{{person}}</li>
+      <li id="{{person.name | downcase | replace: ' ', '-'}}">
+        <div class="person-row">
+          <div class="photo">
+            <!-- Alumni는 사진이 없으므로 비워 두거나 빈 이미지 사용 -->
+            <img class="pi-photo" src="{{ site.baseurl }}/image/people/Blank.jpg" alt="{{person.name}}">
+            <h5 class="name sm-bottom-margin">
+              {{person.name}}
+              {% if person.title %}
+                <span>{{person.title}}</span>
+              {% endif %}
+            </h5>
+          </div>
+          <div class="details">
+            {% if person.bio %}
+              <div class="sm-top-margin">
+                {{ person.bio | markdownify }}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </li>
     {% endfor %}
-    </ul>
-  </div>
+  </ul>
 </div>
 {% endif %}
 {% endfor %}
