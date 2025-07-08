@@ -5,6 +5,17 @@
     title:  Assistant Professor
     image: 'HongYoungsun.jpg'
     bio: Youngsun Hong received the Ph.D. degree in mechanical and aerospace engineering from Seoul National University, Seoul, South Korea, in 2011. From 2011 to 2017, he worked with Samsung Heavy Industries, Seongnam, South Korea, where he developed smart ship fault diagnosis technologies. Since 2017, he has been serving as a Principal Researcher with Jeju Institute of Korea Institute of Industrial Technology, Jeju, South Korea. In 2021, he was appointed as the Director of the Future Mobility Demonstration Center, Jeju, South Korea. Additionally, he serves as the Chief Secretary of the PHM Society, leading various academic and industrial projects as an expert in e-mobility PHM
+- role: Graduate students
+  people:
+
+  - name: No.1
+    image: 'Blank.jpg'
+    bio: Coming soon
+
+  - name: No.2
+    image: 'Blank.jpg'
+    bio: Coming soon
+
   
 - role: Intern researcher
   people:
@@ -14,17 +25,6 @@
     bio: Coming soon
 
   - name : No.2
-    image: 'Blank.jpg'
-    bio: Coming soon
-
-- role: Graduate students
-  people:
-
-  - name: No.1
-    image: 'Blank.jpg'
-    bio: Coming soon
-
-  - name: No.2
     image: 'Blank.jpg'
     bio: Coming soon
 
