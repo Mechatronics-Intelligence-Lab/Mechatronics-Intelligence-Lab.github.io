@@ -46,6 +46,8 @@ main_image: /image/main/EV.jpg
   {% endfor %}
 </ol>
 
+<hr>
+
 ### Project
 
 {% assign project = site.data.project | sort: "date" | reverse %}
