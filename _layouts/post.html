@@ -14,19 +14,15 @@ layout: default
     ">
 
     <div class="post-text" style="flex: 1 1 400px;">
-      <h2 style="
+      <h3 style="
           font-size: 1.5em;
           margin-top: 0;
           margin-bottom: 10px;
           text-align: left;
           color: #007acc;
         ">
-        {{ page.title }}
-      </h2>
-
-      <p style="font-size: 0.9em; color: #555; text-align: left; margin-top: 0;">
-        최신소식
-      </p>
+        {{ page.date | date: "%Y-%m-%d" }} {{ page.title }}
+      </h3>
 
       <div itemprop="articleBody" style="text-align: left;">
         {{ content }}
@@ -35,7 +31,8 @@ layout: default
 
     {% if page.main_image %}
     <div class="post-image" style="flex: 0 0 300px;">
-      <img src="{{ page.main_image }}" alt="{{ page.title }}" style="width: 100%; height: auto; border-radius: 5px;">
+      <img src="{{ page.main_image }}" alt="{{ page.title }}"
+           style="height: 200px; border-radius: 5px; flex-shrink: 0;">
     </div>
     {% endif %}
 
