@@ -15,12 +15,16 @@ Energy storage systems present many interesting engineering research challenges 
 
 
 ## EV & Battery Analysis
+- 급속충전시 배터리 열관리 제어를 통헤 에너지 효율 166% 향상 및 전기/화학적 안전성 개선 기술
 <img src="/image/research/BatteryHeat.png" alt="연구 이미지" style="width: 800px; display: block; margin: 20px auto;" />
 
+- 전기차 Battery pack interconnection system(BIS) 노후화를 반영한 배터리 팩 시스템의 열화수준 진단기술
 <img src="/image/research/BatteryPack.png" alt="연구 이미지" style="width: 800px; display: block; margin: 20px auto;" />
 
 ## Optimal Control for Efficiency & Safety
+- 최적화된 방전심도(Depth of Discharge, DOD)제어 전략을 통해 에너지 효율 45% 및 안전성 개선 기술
 <img src="/image/research/DoD.png" alt="연구 이미지" style="width: 800px; display: block; margin: 20px auto;" />
 
 ## Fault diagnosis of Mechanical component 
+- 베어링 기계적 설계사양(베어링 치수 등) 및 운전정보(RPM 등) 없이 베어링의 고장 진단 기술
 <img src="/image/research/Bearing.png" alt="연구 이미지" style="width: 800px; display: block; margin: 20px auto;" />
