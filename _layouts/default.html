@@ -22,8 +22,10 @@
     
     {% if page.url == "/" %}
     {% assign page-title = site.hero_title | escape %}
-    {% elsif page.title %}
-    {% assign page-title = page.title | escape %}
+    {% elsif page.page_title %}
+	{% assign page-title = page.page_title | escape %}
+	{% elsif page.title %}
+	{% assign page-title = page.title | escape %}
     {% else %}
     {% assign page-title = site.title | escape %}
     {% endif %}
