@@ -147,6 +147,6 @@ ul.no-bullet {
   margin: 0;
 }
 
-<h1 style="white-space: nowrap;">
-  {{ site.hero_title }}
-</h1>
+.no-wrap {
+  white-space: nowrap;
+}
