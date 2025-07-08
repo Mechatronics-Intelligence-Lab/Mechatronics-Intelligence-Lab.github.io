@@ -27,5 +27,5 @@ main_image: /image/main/EV.jpg
 <hr>
 
 ### Fault Diagnosis of Mechatrnocis System Component 
-- 베어링 기계적 설계사양(베어링 치수 등) 및 운전정보(RPM 등) 없이 베어링의 고장 진단 기술
+- WPT, GMM을 활용한 베어링의 조기 고장 진단 기술
 <img src="/image/research/Bearing.png" alt="연구 이미지" style="width: 800px; display: block; margin: 20px auto;" />
