@@ -1,5 +1,4 @@
-- title: Physics-informed neural networks for battery health estimation
-  author: Hong, Youngsun and Kim, J.
-  journal: Applied Energy
-  date: '2024-01-01'
-  link: https://doi.org/10.1016/j.apenergy.2024.xxxxxx
+- title: "Fault diagnosis for electric vehicle battery pack interconnection system using real-world driving data"
+  author: "Sangjun Park, Byeongsu Kang, Dongguen Yu, Myeongyu Jeong, Youngsun Hong"
+  journal: "IEEE Transactions on Industrial Electronics"
+  date: 2025/1/6
