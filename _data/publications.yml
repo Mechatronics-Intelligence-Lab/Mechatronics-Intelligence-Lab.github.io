@@ -1,53 +1,5 @@
-- date: 2025-06-01
-  title: "Fault Diagnosis for Electric Vehicle Battery Pack Interconnection System Using Real-World Driving Data"
-  journal: "IEEE Transactions on Industrial Electronics"
-  author: "S Park, B Kang, D Yu, M Jeong, Y Hong"
-  IF: "7.5"
-
-- date: 2024-09-13
-  title: "PVDF Binder in All-Solid-State Lithium Batteries with NCM/Sulfide/PVDF Cathode, Oxide/PEO SE Layer, and Li-metal Anode"
-  journal: "Journal of The Electrochemical Society"
-  author: "Byeong-Su Kang, Se-Hyeon Jeon, Sang-Jun Park, Young-Woong Song, Jinsub Lim, YoungSun Hong, Min-Young Kim, Ho-Sung Kim"
-  IF: "3.1"
-
-- date: 2024-06-28
-  title: "Effect of High-Temperature Thermal Management on Degradation of Li-ion Battery for Fast Charging"
-  journal: "IEEE Transactions on Transportation Electrification"
-  author: "Sang-Jun Park, Young-Woong Song, Byeongsu Kang, Min-Jun Kang, Min-Young Kim, Yeong-Jun Choi, Jinsun Lim, Ho-sung Kim, Youngsun Hong"
-  IF: "7.2"
-
-- date: 2023-04-10
-  title: "Enhancing Hydrophilicity of Thick Electrodes for High Energy Density Aqueous Batteries"
-  journal: "Nano-Micro Letters"
-  author: "Jungeun Lee, Hyeonsoo Lee, Cheol Bak, Youngsun Hong, Daeha Joung, Jeong Beom Ko, Yong Min Lee & Chanhoon Kim"
-  IF: "31.6"
-    
-- date: 2023-01-01
-  title: "Depth of discharge characteristics and control strategy to optimize electric vehicle battery life"
-  journal: "Journal of Energy Storage"
-  author: "SJ Park, YW Song, BS Kang, WJ Kim, YJ Choi, C Kim, YS Hong"
-  IF: "8.9"
-
-- date: 2022-10-15
-  title: "Surface hydration of fibrous filters by using water-absorbing metal–organic frameworks for efficient ultrafine particulate matter removal"
-  journal: "Chemical Engineering Journal"
-  author: "Won-Tae Koo, Youngsun Hong, Daeha Joung, Chanhoon Kim"
-  IF: "13.3"
-
-- date: 2022-07-29
-  title: "An Early Fault Diagnosis Method for Ball Bearings of Electric Vehicles Based on Integrated Subband Averaging and Enhanced Kurtogram Method"
-  journal: "Energies"
-  author: "Woojoong Kim, Munsu Lee, Sang-Jun Park, Sung-Hyun Jang, Byeong-Su Kang, Namjin Kim, Young-Sun Hong"
-  IF: "3"
-
-- date: 2022-07-11
-  title: "Development of a Fault-Diagnosis System through the Power Conversion Module of an Electric Vehicle Fast Charger"
-  journal: "Energies"
-  author: "Sang-Jun Park, Woo-Joong Kim, Byeong-Su Kang, Sung-Hyun Jang, Yeong-Jun Choi, Young-Sun Hong"
-  IF: "3"
-
-- date: 2019-12-06
-  title: "Early fault diagnosis and classification of ball bearing using enhanced kurtogram and Gaussian mixture model"
-  journal: "IEEE Transactions on Instrumentation and Measurement"
-  author: "Youngsun Hong, Minsu Kim, Hyunho Lee, Jong Jin Park, Dongyeon Lee"
-  IF: "5.3"
+- title: Physics-informed neural networks for battery health estimation
+  author: Hong, Youngsun and Kim, J.
+  journal: Applied Energy
+  date: '2024-01-01'
+  link: https://doi.org/10.1016/j.apenergy.2024.xxxxxx
