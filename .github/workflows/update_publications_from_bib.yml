@@ -1,8 +1,9 @@
-name: Update publications from Google Scholar
+name: Update publications from BibTeX
+
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 18 * * 1"   # 매주 월 18:00 UTC (= 한국 화 03:00)
-  workflow_dispatch:
 
 permissions:
   contents: write
@@ -17,17 +18,15 @@ jobs:
           python-version: "3.11"
 
       - name: Install deps
-        run: pip install scholarly pyyaml
+        run: pip install bibtexparser pyyaml
 
-      - name: Fetch & build _data/publications.yml
-        run: python script/fetch_scholar_to_publications_yml.py
-        env:
-          GSCHOLAR_USER_ID: "FTExVZIAAAAJ"
+      - name: Build _data/publications.yml from assets/pubs.bib
+        run: python script/bib_to_publications_yml.py
 
       - name: Commit & push if changed
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add _data/publications.yml
-          git commit -m "Auto-update publications.yml from Google Scholar" || exit 0
+          git commit -m "Update publications.yml from BibTeX" || exit 0
           git push
