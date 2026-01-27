@@ -30,9 +30,11 @@ main_image: /image/main/EV.jpg
           </p>
         </div>
         {% if post.main_image %}
-          <img src="{{ post.main_image }}" alt="{{ post.title }}"
-               style="height: 200px; border-radius: 5px; flex-shrink: 0;">
-        {% endif %}
+        <div class="post-thumb">
+        <img src="{{ post.main_image }}" alt="{{ post.title }}">
+        </div>
+      {% endif %}
+
       </a>
     </div>
   {% endfor %}
