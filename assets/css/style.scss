@@ -150,3 +150,31 @@ ul.no-bullet {
 .no-wrap {
   white-space: nowrap;
 }
+
+
+/* Mobile menu (hamburger) background + text color */
+@media (max-width: 768px) {
+  /* 메뉴 패널(열렸을 때) 배경 */
+  nav ul,
+  .site-nav,
+  .site-nav ul,
+  .navigation,
+  .menu,
+  .nav-links,
+  .navbar-menu,
+  .mobile-menu {
+    background-color: #003366 !important; // 헤더와 같은 남색
+  }
+
+  /* 메뉴 글자색 */
+  nav ul li a,
+  .site-nav a,
+  .navigation a,
+  .menu a,
+  .nav-links a,
+  .navbar-menu a,
+  .mobile-menu a {
+    color: #ffffff !important;
+  }
+}
+
