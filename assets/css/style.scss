@@ -192,3 +192,20 @@ ul.no-bullet {
   border-radius: 5px;
   display: block;
 }
+
+
+/* Home/News list thumbnail unify */
+.post-thumb {
+  flex: 0 0 300px;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.post-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* 비율 유지 + 박스 꽉 채움 */
+  display: block;
+}
