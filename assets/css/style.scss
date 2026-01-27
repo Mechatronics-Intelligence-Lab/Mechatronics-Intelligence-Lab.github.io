@@ -257,3 +257,26 @@ ul.no-bullet {
     font-size: clamp(28px, 7vw, 42px);
   }
 }
+
+
+/* ===== News page mobile layout fix ===== */
+@media (max-width: 768px) {
+  /* News 목록의 한 항목을 세로로 쌓기 */
+  .post-row {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 12px !important;
+  }
+
+  /* 텍스트 영역이 꽉 차게 */
+  .post-row > div {
+    width: 100% !important;
+  }
+
+  /* 썸네일도 모바일에서 전체폭 */
+  .post-row .post-thumb {
+    width: 100% !important;
+    flex: 0 0 auto !important;
+    height: 180px !important;
+  }
+}
