@@ -209,3 +209,30 @@ ul.no-bullet {
   object-fit: cover;   /* 비율 유지 + 박스 꽉 채움 */
   display: block;
 }
+
+
+/* ===== Mobile: stack list item vertically (text above, image below) ===== */
+@media (max-width: 768px) {
+  /* home.html / news.md에서 a태그에 inline으로 display:flex 줬으니,
+     post-list 안의 a를 강제로 세로로 변경 */
+  .post-list a,
+  .post-list > li > a {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 12px !important;
+  }
+
+  /* 썸네일은 모바일에서는 전체폭으로 */
+  .post-thumb {
+    width: 100% !important;
+    flex: 0 0 auto !important;
+    height: 180px !important;   /* 모바일 높이: 취향대로 160~220 */
+  }
+
+  /* 글 영역이 너무 좁아지지 않게 */
+  .post-list a > div[style*="flex: 1"],
+  .post-list a > div {
+    width: 100%;
+  }
+}
