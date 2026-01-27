@@ -236,3 +236,24 @@ ul.no-bullet {
     width: 100%;
   }
 }
+
+
+/* ===== Mobile: prevent hero title from clipping ===== */
+@media (max-width: 768px) {
+  .page-header h1,
+  .page-header .project-name,
+  h1 {
+    white-space: normal !important;   /* 줄바꿈 허용 */
+    overflow-wrap: anywhere;          /* 길면 적당히 끊어서 줄바꿈 */
+    word-break: keep-all;             /* 한글은 단어 단위로 */
+    padding: 0 16px;                  /* 좌우 여백 */
+    box-sizing: border-box;
+    line-height: 1.15;
+  }
+
+  /* 제목이 너무 크면 조금 줄이기 */
+  .page-header h1,
+  .page-header .project-name {
+    font-size: clamp(28px, 7vw, 42px);
+  }
+}
