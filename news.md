@@ -11,7 +11,7 @@ main_image: /image/main/EV.jpg
 <div>
   {% for post in site.posts %}
     <div style="margin-bottom: 30px;">
-      <a href="{{ post.url }}" style="
+      <a class="post-row" href="{{ post.url }}" style="
           display: flex;
           align-items: flex-start;
           gap: 20px;
