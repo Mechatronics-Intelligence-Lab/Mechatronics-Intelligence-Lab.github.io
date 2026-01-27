@@ -36,16 +36,12 @@ layout: default
             </p>
           </div>
 
-          {% if post.main_image %}
-            <div style="flex: 0 0 300px;">
-              <img src="{{ post.main_image }}" alt="{{ post.title | escape }}" style="
-                  width: 100%;
-                  height: auto;
-                  border-radius: 5px;
-                  flex-shrink: 0;
-              ">
-            </div>
-          {% endif %}
+{% if post.main_image %}
+  <div class="post-thumb">
+    <img src="{{ post.main_image }}" alt="{{ post.title | escape }}">
+  </div>
+{% endif %}
+
 
         </a>
       </li>
