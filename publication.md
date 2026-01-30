@@ -46,7 +46,7 @@ main_image: /image/main/EV.jpg
 
 ### Patent
 
-{% assign patent = site.data.patent | sort: "date" %}
+{% assign patent = site.data.patent | sort: "date" | reverse %}
 <ol style="padding-left: 1.5em;">
   {% for paper in patent %}
     <li style="margin-bottom: 10px;">
