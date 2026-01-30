@@ -15,7 +15,7 @@ main_image: /image/main/EV.jpg
 <ol reversed style="padding-left: 1.5em;">
   {% for paper in publications %}
     <li style="margin-bottom: 10px;">
-      {{ paper.title }}, {{ paper.author }}, <i>{{ paper.journal }}</i> [{{ paper.date | date: "%Y" }}]
+      {{ paper.title }}, {{ paper.author }}, <i>{{ paper.journal }}</i> [{{ paper.date | date:"%Y.%m.%d }}]
     </li>
   {% endfor %}
 </ol>
@@ -24,7 +24,7 @@ main_image: /image/main/EV.jpg
 
 ### Conference
 
-{% assign conference = site.data.conference | sort: "start_date"  %}
+{% assign conference = site.data.conference | sort: "start_date" | reverse %}
 <ol reversed style="padding-left: 1.5em;">
 {% for conf in conference %}
   <li style="margin-bottom: 10px;">
@@ -51,7 +51,7 @@ main_image: /image/main/EV.jpg
   {% for paper in patent %}
     <li style="margin-bottom: 10px;">
       ({{ paper.state }}) {{ paper.title }}, {{ paper.author }}
-      [{{ paper.date | date: "%Y-%m-%d" }}]
+      [{{ paper.date | date: "%Y.%m.%d" }}]
     </li>
   {% endfor %}
 </ol>
