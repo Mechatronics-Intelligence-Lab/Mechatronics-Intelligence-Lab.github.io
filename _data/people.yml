@@ -1,6 +1,5 @@
-ene- role: Principal investigator
+- role: Principal Investigator
   people:
-
   - name: 
     title: 
     image: 'HongYoungsun.jpg'
@@ -40,7 +39,7 @@ ene- role: Principal investigator
         - Division Director of Korean Society of Manufacturing Technology Engineers (2025)
 
     
-- role: Graduate students
+- role: Graduate Students
   people:
 
   - name: No.1
@@ -52,7 +51,7 @@ ene- role: Principal investigator
     bio: Coming soon
 
   
-- role: Intern researcher
+- role: Intern Researcher
   people:
 
   - name : No.1
