@@ -88,7 +88,7 @@ main_image: /image/main/EV.jpg
   <div class="col-xs-12 col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2" markdown="1">
 ### Joining the group
 
-Students who are interested in our graduate program and Internship are very welcome.
+Students who are interested in our graduate program and Internship are very welcome.<br>
 If you have any questions about admission or research topics, please feel free to contact Professor Youngsun Hong at any time.<br>
 You may reach out by phone or email, and we will be happy to provide detailed information.
 
