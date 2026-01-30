@@ -17,11 +17,11 @@ Our research aims to improve the performance and efficiency of mechatronic syste
 <hr>
 
 <p style="color: #800080; font-size: 18px; font-weight: bold;">
-현재 우리 실험실에서 대학원생 및 학부 인턴십을 모집하고 있습니다.<br>
-메카트로닉스 연구에 관심 있고 열정적인 학생은 언제든지 홍영선 교수에게 문의해 주세요.<br><br>
+We are currently recruiting graduate students and undergraduate interns in our laboratory.<br>
+Students who are interested in mechatronics research and are highly motivated are encouraged to contact Professor Youngsun Hong at any time.<br><br>
 
-WWe are currently recruiting graduate students and undergraduate interns in our laboratory.<br>
-Students who are interested in mechatronics research and are highly motivated are encouraged to contact Professor Youngsun Hong at any time.  
+현재 우리 실험실에서 대학원생 및 학부 인턴십을 모집하고 있습니다.<br>
+메카트로닉스 연구에 관심 있고 열정적인 학생은 언제든지 홍영선 교수에게 문의해 주세요.
 </p>
 
 <hr>
