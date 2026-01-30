@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Publication
-tagline: 논문 및 학술대회
+tagline: Publications & Conferences
 permalink: /publication.html
 ref: publication
 order: 0
@@ -12,11 +12,20 @@ main_image: /image/main/EV.jpg
 
 {% assign publications = site.data.publications | sort: "date" | reverse %}
 <ol reversed style="padding-left: 1.5em;">
-  {% for paper in publications %}
-    <li style="margin-bottom: 10px;">
-      {{ paper.title }}, {{ paper.author }}, <i>{{ paper.journal }}</i> [{{ paper.date | date:"%Y.%m.%d }}]
-    </li>
-  {% endfor %}
+{% for paper in publications %}
+  <li style="margin-bottom: 10px;">
+    {{ paper.title }}, {{ paper.author }}, <i>{{ paper.journal }}</i>
+    {% if paper.date %}
+      [
+      {% if paper.date contains '-' %}
+        {{ paper.date | date: "%Y.%m.%d" }}
+      {% else %}
+        {{ paper.date }}
+      {% endif %}
+      ]
+    {% endif %}
+  </li>
+{% endfor %}
 </ol>
 
 <hr>
@@ -46,13 +55,19 @@ main_image: /image/main/EV.jpg
 ### Patent
 
 {% assign patent = site.data.patent | sort: "date" | reverse %}
-<ol style="padding-left: 1.5em;">
-  {% for paper in patent %}
-    <li style="margin-bottom: 10px;">
-      ({{ paper.state }}) {{ paper.title }}, {{ paper.author }}
-      [{{ paper.date | date: "%Y.%m.%d" }}]
-    </li>
-  {% endfor %}
+<ol reversed style="padding-left: 1.5em;">
+{% for paper in patent %}
+  <li style="margin-bottom: 10px;">
+    ({{ paper.state }}) {{ paper.title }}, {{ paper.author }}
+    [
+    {% if paper.date contains '-' %}
+      {{ paper.date | date: "%Y.%m.%d" }}
+    {% else %}
+      {{ paper.date }}
+    {% endif %}
+    ]
+  </li>
+{% endfor %}
 </ol>
 
 <hr>
@@ -76,4 +91,5 @@ main_image: /image/main/EV.jpg
   </li>
 {% endfor %}
 </ol>
+
 
