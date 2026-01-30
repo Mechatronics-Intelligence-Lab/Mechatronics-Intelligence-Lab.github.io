@@ -8,7 +8,6 @@ order: 0
 main_image: /image/main/EV.jpg
 ---
 
-
 ### Paper
 
 {% assign publications = site.data.publications | sort: "date" | reverse %}
