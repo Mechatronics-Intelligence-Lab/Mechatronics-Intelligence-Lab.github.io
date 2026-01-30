@@ -16,13 +16,7 @@ main_image: /image/main/EV.jpg
   <li style="margin-bottom: 10px;">
     {{ paper.title }}, {{ paper.author }}, <i>{{ paper.journal }}</i>
     {% if paper.date %}
-      [
-      {% if paper.date contains '-' %}
-        {{ paper.date | date: "%Y.%m.%d" }}
-      {% else %}
-        {{ paper.date }}
-      {% endif %}
-      ]
+      [{{ paper.date | date: "%Y.%m.%d" }}]
     {% endif %}
   </li>
 {% endfor %}
@@ -59,13 +53,9 @@ main_image: /image/main/EV.jpg
 {% for paper in patent %}
   <li style="margin-bottom: 10px;">
     ({{ paper.state }}) {{ paper.title }}, {{ paper.author }}
-    [
-    {% if paper.date contains '-' %}
-      {{ paper.date | date: "%Y.%m.%d" }}
-    {% else %}
-      {{ paper.date }}
+    {% if paper.date %}
+      [{{ paper.date | date: "%Y.%m.%d" }}]
     {% endif %}
-    ]
   </li>
 {% endfor %}
 </ol>
@@ -91,5 +81,6 @@ main_image: /image/main/EV.jpg
   </li>
 {% endfor %}
 </ol>
+
 
 
