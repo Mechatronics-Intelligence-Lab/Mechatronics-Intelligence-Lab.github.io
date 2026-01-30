@@ -29,7 +29,7 @@ main_image: /image/main/EV.jpg
 {% for conf in conference %}
   <li>
     {{ conf.title }}, {{ conf.organization }}, {{ conf.location }}
-    [{{ conf.date_start }} ~ {{ conf.date_end }}]
+    [{{ conf.start_date }} ~ {{ conf.end_date }}]
   </li>
 {% endfor %}
 </ol>
