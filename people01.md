@@ -1,7 +1,7 @@
 ---
 layout: page
 title: People
-tagline: Researcher
+tagline: 연구자
 <!-- permalink: /people.html -->
 <!-- ref: people  -->
 order: 0
