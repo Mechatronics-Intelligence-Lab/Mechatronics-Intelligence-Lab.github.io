@@ -24,7 +24,7 @@ main_image: /image/main/EV.jpg
 
 ### Conference
 
-{% assign conference = site.data.conference | sort: "start_date" | reverse %}
+{% assign conference = site.data.conference | sort: "start_date"  %}
 <ol reversed style="padding-left: 1.5em;">
 {% for conf in conference %}
   <li style="margin-bottom: 10px;">
