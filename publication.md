@@ -24,13 +24,14 @@ main_image: /image/main/EV.jpg
 
 ### Conference
 
-{% assign conference = site.data.conference | sort: "date" | reverse %}
-<ol reversed style="padding-left: 1.5em;">
-  {% for paper in conference %}
-    <li style="margin-bottom: 10px;">
-      {{ paper.title }}, {{ paper.location }} [{{ paper.date | date: "%Y" }}]
-    </li>
-  {% endfor %}
+{% assign conference = site.data.conference | reverse %}
+<ol reversed>
+{% for conf in conference %}
+  <li>
+    {{ conf.title }}, {{ conf.organization }}, {{ conf.location }}
+    [{{ conf.date_start }} ~ {{ conf.date_end }}]
+  </li>
+{% endfor %}
 </ol>
 
 <hr>
