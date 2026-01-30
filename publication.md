@@ -46,11 +46,12 @@ main_image: /image/main/EV.jpg
 
 ### Patent
 
-{% assign patent = site.data.patent | sort: "date" | reverse %}
-<ol reversed style="padding-left: 1.5em;">
+{% assign patent = site.data.patent | sort: "date" %}
+<ol style="padding-left: 1.5em;">
   {% for paper in patent %}
     <li style="margin-bottom: 10px;">
-      ({{ paper.state }}) {{ paper.title }}, {{ paper.author }} [{{ paper.date | date: "%Y" }}]
+      ({{ paper.state }}) {{ paper.title }}, {{ paper.author }}
+      [{{ paper.date | date: "%Y-%m-%d" }}]
     </li>
   {% endfor %}
 </ol>
