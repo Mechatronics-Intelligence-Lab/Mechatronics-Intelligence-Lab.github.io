@@ -7,17 +7,25 @@ ref: research
 order: 2
 main_image: /image/main/EV.jpg
 ---
+
+<!--
 우리 연구의 목표는 메카트로닉스 시스템의 성능평가, 이상감지, 고장진단, 수명예측 기술 등을 통해 성능과 효율 개선입니다. 기계, 전기/전자와 인공지능 기술을 활용하여 전기차, 로봇, 항공기, 발전설비 등에 대해 고장과 사고를 예방하고 기대수명을 만족시켜 안전성과 경제성을 동시에 만족시키는 활용성 높은 기술을 개발합니다.
 
-특히 전기차와 배터리에 대한 고장진단 및 열화원인 분석이 주요한 연구테마입니다. 고밀도의 전기차 배터리는 화재 안전성 문제와 함께 사용이력에 따라 성능 및 수명이 크게 영향을 받지만 원인 및 연관성에 아직 명확하게 규명되지 않아 많은 연구가 필요합니다. 
-또한 메카트로닉스 시스템의 기계/전기/전자 컴포넌트 시스템에 대한 이해를 통해 안전성과 효율성 개선이 필요하고 이러한 기술을 통해 수명 및 신뢰성 확장이 가능합니다. 
-우리 실험실은 메카트로닉스 시스템의 안전과 효율을 개선하고 실제 산업 현장에 직접 활용가능한 실용적인 연구를 수행합니다. 
+특히 전기차와 배터리에 대한 고장진단 및 열화원인 분석이 주요한 연구테마입니다. 고밀도의 전기차 배터리는 화재 안전성 문제와 함께 사용이력에 따라 성능 및 수명이 크게 영향을 받지만 원인 및 연관성에 아직 명확하게 규명되지 않아 많은 연구가 필요합니다. 또한 메카트로닉스 시스템의 기계/전기/전자 컴포넌트 시스템에 대한 이해를 통해 안전성과 효율성 개선이 필요하고 이러한 기술을 통해 수명 및 신뢰성 확장이 가능합니다. 
 
+우리 실험실은 메카트로닉스 시스템의 안전과 효율을 개선하고 실제 산업 현장에 직접 활용가능한 실용적인 연구를 수행하고 있습니다. 
+-->
 
+Our research aims to enhance the performance and efficiency of mechatronic systems through performance evaluation, anomaly detection, fault diagnosis, and remaining useful life prediction. By integrating mechanical, electrical/electronic, and artificial intelligence technologies, we develop highly practical solutions that prevent failures and accidents while ensuring both safety and economic efficiency in applications such as electric vehicles, robotics, aerospace systems, and power generation facilities. <br>
+
+In particular, fault diagnosis and degradation mechanism analysis of electric vehicles and battery systems are key research topics. High-energy-density batteries used in electric vehicles are significantly influenced by usage history in terms of performance and lifespan and pose critical fire safety concerns. However, the underlying causes and their correlations have not yet been fully clarified, highlighting the need for further systematic research. In addition, improving safety and efficiency through a comprehensive understanding of mechanical, electrical, and electronic components in mechatronic systems enables the extension of system lifetime and reliability.
+
+우리 실험실은 메카트로닉스 시스템의 안전과 효율을 개선하고 실제 산업 현장에 직접 활용가능한 실용적인 연구를 수행하고 있습니다.
 
 <hr>
 
 ### EV and Battery Aging and Degradation Analysis
+
 - 급속충전시 배터리 열관리 제어를 통헤 에너지 효율 166% 향상 및 전기/화학적 안전성 개선 기술
 <img src="/image/research/BatteryHeat.png" alt="연구 이미지" style="width: 800px; display: block; margin: 20px auto;" />
 
