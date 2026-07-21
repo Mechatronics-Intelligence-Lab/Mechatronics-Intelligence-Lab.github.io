@@ -11,15 +11,15 @@ main_image: /image/main/EV.jpg
 <div class="row">
 <div class="col-xs-12 col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2" markdown="1">
 
-### Main Student Laboratory (Jeonju Campus) ⭐
-Mechatronics Intelligence Lab (MIL)
-Room 136, College of Engineering Building 1
-Jeonbuk National University, Jeonju Campus
-567 Baekje-daero, Deokjin-gu, Jeonju-si, Jeonbuk State 54896
+<h3> ### Main Student Laboratory (Jeonju Campus) ⭐</h3>
+<strong> Mechatronics Intelligence Lab (MIL) </strong><br>
+Room 136, College of Engineering Building 1 <br>
+Jeonbuk National University, Jeonju Campus <br>
+567 Baekje-daero, Deokjin-gu, Jeonju-si, Jeonbuk State 54896 <br>
 Republic of Korea
 
 ### Professor's Office (Saemangeum Campus)
-Room 408, Saemangeum Frontier Campus
+Room 408, Saemangeum Frontier Campus <br>
 177, Sandannambuk-ro, Gunsan-si, Jeonbuk-do, Republic of Korea
 
 ☎ Office
