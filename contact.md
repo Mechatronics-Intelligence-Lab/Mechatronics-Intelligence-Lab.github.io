@@ -11,7 +11,7 @@ main_image: /image/main/EV.jpg
 <div class="row">
 <div class="col-xs-12 col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2" markdown="1">
 
-### Main Student Laboratory (Jeonju Campus) ⭐
+### Student Laboratory (Jeonju Campus) ⭐
 <strong> Mechatronics Intelligence Lab (MIL) </strong><br>
 Room 136, College of Engineering Building 1 <br>
 Jeonbuk National University, Jeonju Campus <br>
