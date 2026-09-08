@@ -63,13 +63,25 @@
 - role: Intern Researcher
   people:
 
-  - name : No.1
-    image: 'Blank.jpg'
-    bio: Coming soon
+  - name : 이채영
+    image: '사진_이채영.jpg'
+    bio: Research Field
 
-  - name : No.2
-    image: 'Blank.jpg'
-    bio: Coming soon
+  - name : 김진우
+    image: '사진_김진우.jpg'
+    bio: Research Field
+
+  - name : 심현규
+    image: '사진_심현규.jpg'
+    bio: Research Field
+
+  - name : 하민재
+    image: '사진_하민재.jpg'
+    bio: Research Field
+    
+  - name : 차승현
+    image: '사진_차승현.jpg'
+    bio: Research Field
 
 - role: Alumni
   people:
