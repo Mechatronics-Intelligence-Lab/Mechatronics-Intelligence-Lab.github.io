@@ -6,7 +6,7 @@
     scholar_url: "https://scholar.google.com/citations?user=FTExVZIAAAAJ&hl=ko"
     bio: |
         <span style="color: #003366; font-size: 20px; font-weight: bold;">
-        Hong Youngsun
+        Youngsun Hong
         </span>
 
         Assistant Professor  
@@ -63,23 +63,23 @@
 - role: Intern Researcher
   people:
 
-  - name : 이채영
+  - name : 이채영 (Chaeyoung Lee)
     image: '사진_이채영.jpg'
     bio: Research Field
 
-  - name : 김진우
+  - name : 김진우 (Jinwoo Kim)
     image: '사진_김진우.jpg'
     bio: Research Field
 
-  - name : 심현규
+  - name : 심현규 (Hyeongyu Sim)
     image: '사진_심현규.jpg'
     bio: Research Field
-
-  - name : 하민재
+    
+  - name : 하민재 (Minjae Ha)
     image: '사진_하민재.jpg'
     bio: Research Field
     
-  - name : 차승현
+  - name : 차승현 (Seunghyeon Cha)
     image: '사진_차승현.jpg'
     bio: Research Field
 
