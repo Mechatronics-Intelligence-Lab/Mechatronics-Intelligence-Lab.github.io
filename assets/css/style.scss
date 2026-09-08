@@ -110,35 +110,28 @@
   margin-top: 10px;
 }
 
-/* Post-doc grid */
+/* ===== People: PI 제외, 한 사람당 한 줄 ===== */
+
 .image-grid:not(.principal-investigator) ul.no-bullet {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
+  display: block;
   list-style: none;
   padding: 0;
   margin: 30px 0;
 }
 
-.image-grid:not(.principal-investigator) ul.no-bullet > li {  
-  padding: 20px;
-  border-radius: 0;
-  text-align: center;
+.image-grid:not(.principal-investigator) ul.no-bullet > li {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 40px;
+  text-align: left;
 }
 
-.image-grid:not(.principal-investigator) ul.no-bullet > li .person-row {
-  display: block;
-}
-
-.image-grid:not(.principal-investigator) ul.no-bullet > li .photo {
-  margin-bottom: 15px;
-}
-
-.image-grid:not(.principal-investigator) ul.no-bullet > li .photo img {
-  width: 300px;
-  height: auto;
-  border-radius: 0;
-  margin: 0 auto;
+/* 사진 + 정보 가로 배치 */
+.image-grid:not(.principal-investigator) .person-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  width: 100%;
 }
 
 ul.no-bullet {
