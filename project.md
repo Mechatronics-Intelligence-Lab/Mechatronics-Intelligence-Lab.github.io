@@ -2,6 +2,7 @@
 layout: page
 title: Projects
 permalink: /project.html
+tagline: Research Projects
 main_image: /image/main/EV.jpg
 ---
 
