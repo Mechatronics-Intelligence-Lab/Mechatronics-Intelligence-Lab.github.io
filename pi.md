@@ -3,6 +3,7 @@ layout: page
 title: Principal Investigator
 tagline: Principal Investigator
 permalink: /pi.html
+main_image: /image/main/EV.jpg
 ---
 
 <div style="display: flex; align-items: left;">
