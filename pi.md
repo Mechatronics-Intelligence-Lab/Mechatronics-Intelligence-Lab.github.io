@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Principal Investigator
+tagline: Principal Investigator
 permalink: /pi.html
 ---
 
