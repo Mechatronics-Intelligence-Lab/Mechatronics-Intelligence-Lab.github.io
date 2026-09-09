@@ -1,326 +1,89 @@
+---
+---
+
 @import 'jekyll-theme-cayman-blog';
-
-/* =========================================================
-
-MIL DESIGN SETTINGS
-
-앞으로 색상/폰트/크기는 여기만 수정
-========================================================= */
-
-/* ---------- Colors ---------- */
-
-$color-header: #002c5f;
-$color-header-text: #ffffff;
-$color-header-hover: #ffd700;
-
-$color-text: #333333;
-$color-heading: #006b3c;
-$color-link: #0056b3;
-$color-link-hover: #003d80;
-
-$color-divider: #157878;
-
-/* ---------- Font ---------- */
-
-$font-main: -apple-system,
-BlinkMacSystemFont,
-"Segoe UI",
-Arial,
-"Noto Sans KR",
-sans-serif;
-
-/* ---------- Font Size ---------- */
-
-$font-body: 18px;
-
-$font-h1: 36px;
-$font-h2: 30px;
-$font-h3: 24px;
-$font-h4: 20px;
-
-$font-name: 20px;
-
-$font-nav: 18px;
-
-/* ---------- Layout ---------- */
-
-$content-width: 1200px;
-$content-padding: 30px;
-
-$header-height: 56px;
-
-
-
-/* =========================================================
-2. GLOBAL TYPOGRAPHY
-========================================================= */
-
-body {
-font-family: $font-main;
-color: $color-text;
-font-size: $font-body;
-}
-
-/* Main contents */
-
-.main-content {
-color: $color-text;
-font-family: $font-main;
-font-size: $font-body;
-padding-top: 80px !important;
-}
-
-.main-content p,
-.main-content li,
-.main-content span {
-color: $color-text;
-}
-
-/* Headings */
-
-.main-content h1 {
-color: $color-heading;
-font-size: $font-h1;
-font-weight: 500;
-}
-
-.main-content h2 {
-color: $color-heading;
-font-size: $font-h2;
-font-weight: 500;
-}
-
-.main-content h3 {
-color: $color-heading;
-font-size: $font-h3;
-font-weight: 500;
-}
-
-.main-content h4 {
-color: $color-heading;
-font-size: $font-h4;
-font-weight: 500;
-}
-
-/* Links */
-
-.main-content a {
-color: $color-link;
-}
-
-.main-content a {
-color: $color-link-hover;
-}
-
-
-
-/* =========================================================
-3. HEADER
-========================================================= */
-
-.site-header {
-position: fixed;
-
-top: 0;
-left: 0;
-right: 0;
-
-width: 100% !important;
-
-margin: 0 !important;
-padding: 0 !important;
-
-box-sizing: border-box !important;
-
-z-index: 999;
-
-background-color: $color-header !important;
-
-border-bottom: none !important;
-}
-
-/* Header wrapper */
-
-.site-header .wrapper {
-max-width: none !important;
-
-width: 100% !important;
-
-margin-left: 0 !important;
-margin-right: 0 !important;
-
-padding-left: $content-padding !important;
-padding-right: $content-padding !important;
-
-box-sizing: border-box !important;
-
-background-color: $color-header !important;
-}
-
-/* Header links */
-
-.site-header a,
-.site-header .dropdown-title {
-color: $color-header-text !important;
-text-decoration: none;
-
-font-size: $font-nav;
-}
-
-.site-header a,
-.site-header .nav-dropdown .dropdown-title {
-color: $color-header-hover !important;
-}
-
-
-
-/* =========================================================
-4. HEADER DROPDOWN MENU
-========================================================= */
-
-.site-nav .trigger {
-display: flex;
-align-items: center;
-}
-
-/* Dropdown container */
-
-.nav-dropdown {
-position: relative;
-display: inline-block;
-}
-
-/* Dropdown title */
-
-.dropdown-title {
-cursor: pointer;
-}
-
-/* Arrow */
-
-.dropdown-title::after {
-content: " ▾";
-font-size: 0.75em;
-}
-
-/* Dropdown panel */
-
-.dropdown-menu {
-display: none;
-
-position: absolute;
-
-top: 100%;
-left: 0;
-
-min-width: 150px;
-
-padding: 8px 0;
-
-background-color: $color-header;
-
-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
-
-z-index: 2000;
-}
-
-/* Show dropdown */
-
-.nav-dropdown .dropdown-menu {
-display: block;
-}
-
-/* Dropdown links */
-
-.dropdown-menu a {
-display: block;
-
-padding: 10px 18px;
-
-color: $color-header-text !important;
-
-white-space: nowrap;
-
-text-decoration: none;
-}
-
-.dropdown-menu a {
-color: $color-header-hover !important;
-
-background-color: rgba(255, 255, 255, 0.08);
-}
-
-
-
-/* =========================================================
-5. HERO / PAGE HEADER
-========================================================= */
 
 .page-header {
 min-height: 300px;
-
 padding: 80px 20px;
-
-margin-top: $header-height;
-
 color: #ffffff;
-
 text-align: center;
-
 background-color: #003366;
 }
 
+/* --- Fix header to top --- */
+.site-header {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 999;
+background: rgb(0, 44, 95) !important;
+border-bottom: none !important;
+}
 
+.main-content {
+padding-top: 80px !important;
+}
 
-/* =========================================================
-6. CONTENT WIDTH
-========================================================= */
+/* Add spacing below fixed header for hero section */
+.page-header {
+margin-top: 56px;
+}
 
-.post,
-.page,
-.post-content,
-.page-content,
-.post-list,
-.main-content,
-.site-footer > .container {
+.site-header a {
+color: #ffffff !important;
+text-decoration: none;
+}
 
-width: 100% !important;
-
-max-width: $content-width !important;
-
-margin-left: auto !important;
-margin-right: auto !important;
-
-padding-left: $content-padding !important;
-padding-right: $content-padding !important;
-
-box-sizing: border-box !important;
+.site-header a:hover {
+color: #ffd700 !important;
 }
 
 
+/* header wrapper 폭 풀기 */
+.site-header .wrapper {
+max-width: none !important;
+width: 100% !important;
+margin-left: 0 !important;
+margin-right: 0 !important;
+padding-left: 30px !important;
+padding-right: 30px !important;
+box-sizing: border-box !important;
+background-color: rgb(0, 44, 95) !important; /* 확인용 연핑크 */
+}
 
-/* =========================================================
-7. PEOPLE - PRINCIPAL INVESTIGATOR
-========================================================= */
+/* header 자체도 폭 풀기 */
+.site-header {
+width: 100% !important;
+margin: 0 !important;
+padding: 0 !important;
+box-sizing: border-box !important;
+}
 
+.post, .page, .post-content, .page-content, .post-list, .main-content, .site-footer > .container {
+width: 100% !important;
+max-width: 1200px !important;
+margin-left: auto !important;
+margin-right: auto !important;
+padding-left: 30px !important;
+padding-right: 30px !important;
+box-sizing: border-box !important;   
+}
+
+
+/* PI 영역 가로 배치 */
 .image-grid.principal-investigator ul.no-bullet {
 display: block;
 }
 
 .image-grid.principal-investigator ul.no-bullet > li .person-row {
-
 display: flex;
-
 flex-wrap: wrap;
-
 gap: 30px;
-
 align-items: flex-start;
-
 justify-content: flex-start;
-
 margin-bottom: 40px;
-
 text-align: left;
 }
 
@@ -329,149 +92,91 @@ flex: 0 0 auto;
 }
 
 .person-row .photo img.pi-photo {
-
 width: 300px;
-
 height: auto;
-
 border-radius: 0;
-
 margin: 0;
 }
 
 .person-row .details {
-
 flex: 1 1 0;
-
 min-width: 300px;
 }
 
 .person-row .photo .name {
-
 text-align: center;
-
-font-size: 1em;
-
-color: $color-heading;
-
+font-size: 1.0em;
+color: #15803d;
 margin-top: 10px;
 }
 
+/* ===== People: PI 제외, 한 사람당 한 줄 ===== */
 
-
-/* =========================================================
-8. PEOPLE - STUDENTS / ALUMNI
-========================================================= */
-
-.image-grid(.principal-investigator) ul.no-bullet {
-
+.image-grid:not(.principal-investigator) ul.no-bullet {
 display: block;
-
 list-style: none;
-
 padding: 0;
-
 margin: 30px 0;
 }
 
-.image-grid(.principal-investigator) ul.no-bullet > li {
-
+.image-grid:not(.principal-investigator) ul.no-bullet > li {
 width: 100%;
-
 padding: 0;
-
 margin-bottom: 40px;
-
 text-align: left;
 }
 
-/* Photo + information */
-
-.image-grid(.principal-investigator) .person-row {
-
+/* 사진 + 정보 가로 배치 */
+.image-grid:not(.principal-investigator) .person-row {
 display: flex;
-
 align-items: flex-start;
-
 gap: 30px;
-
 width: 100%;
 }
 
-/* Photo area */
-
-.image-grid(.principal-investigator) .photo {
-
+/* 사진 영역 */
+.image-grid:not(.principal-investigator) .photo {
 flex: 0 0 220px;
-
 width: 220px;
-
 margin: 0;
 }
 
-/* Student image */
-
-.image-grid(.principal-investigator) .photo img.pi-photo {
-
+/* 모든 사진 크기 동일 */
+.image-grid:not(.principal-investigator) .photo img.pi-photo {
 width: 220px;
-
 height: 293px;
-
 object-fit: cover;
-
 object-position: center;
-
 display: block;
-
 border-radius: 0;
-
 margin: 0;
 }
 
-/* Student information */
-
-.image-grid(.principal-investigator) .details {
-
+/* 오른쪽 정보 */
+.image-grid:not(.principal-investigator) .details {
 flex: 1;
-
 min-width: 0;
-
 text-align: left;
 }
 
-/* Student name */
-
-.image-grid(.principal-investigator) .details .name {
-
+/* 이름 */
+.image-grid:not(.principal-investigator) .details .name {
 text-align: left;
-
-font-size: $font-name;
-
-color: $color-heading;
-
+font-size: 20px;
+color: #15803d;
 margin-top: 0;
-
 margin-bottom: 12px;
 }
 
-.image-grid(.principal-investigator) .details,
-.image-grid(.principal-investigator) .details p {
-
+/* Research Field 등 */
+.image-grid:not(.principal-investigator) .details,
+.image-grid:not(.principal-investigator) .details p {
 text-align: left;
 }
 
-
-
-/* =========================================================
-9. LIST UTILITIES
-========================================================= */
-
 ul.no-bullet {
-
 list-style: none;
-
 padding-left: 0;
-
 margin: 0;
 }
 
@@ -480,71 +185,10 @@ white-space: nowrap;
 }
 
 
-
-/* =========================================================
-10. HOME / NEWS THUMBNAILS
-========================================================= */
-
-.post-image {
-
-width: 300px;
-
-height: 200px;
-
-flex-shrink: 0;
-}
-
-.post-image img {
-
-width: 100%;
-
-height: 100%;
-
-object-fit: cover;
-
-border-radius: 5px;
-
-display: block;
-}
-
-/* Home / News list thumbnails */
-
-.post-thumb {
-
-flex: 0 0 300px;
-
-width: 300px;
-
-height: 200px;
-
-overflow: hidden;
-
-border-radius: 5px;
-}
-
-.post-thumb img {
-
-width: 100%;
-
-height: 100%;
-
-object-fit: cover;
-
-display: block;
-}
-
-
-
-/* =========================================================
-11. MOBILE
-========================================================= */
-
+/* Mobile menu (hamburger) background + text color */
 @media (max-width: 768px) {
-
-/* ---------------------------------
-Header / Navigation
---------------------------------- */
-
+/* 메뉴 패널(열렸을 때) 배경 */
+nav ul,
 .site-nav,
 .site-nav ul,
 .navigation,
@@ -552,21 +196,218 @@ Header / Navigation
 .nav-links,
 .navbar-menu,
 .mobile-menu {
-
-background-color: $color-header !important;
-
+background-color: #003366 !important; // 헤더와 같은 남색
 }
 
+/* 메뉴 글자색 */
+nav ul li a,
 .site-nav a,
 .navigation a,
 .menu a,
 .nav-links a,
 .navbar-menu a,
 .mobile-menu a {
-
-color: $color-header-text !important;
-
+color: #ffffff !important;
 }
+}
+
+/* Post main image size control */
+.post-image {
+width: 300px;      /* ← 그림 가로 크기 */
+height: 200px;     /* ← 그림 세로 크기 */
+flex-shrink: 0;
+}
+
+.post-image img {
+width: 100%;
+height: 100%;
+object-fit: cover;   /* ← 비율 유지, 안 찌그러짐 */
+border-radius: 5px;
+display: block;
+}
+
+
+/* Home/News list thumbnail unify */
+.post-thumb {
+flex: 0 0 300px;
+width: 300px;
+height: 200px;
+overflow: hidden;
+border-radius: 5px;
+}
+
+.post-thumb img {
+width: 100%;
+height: 100%;
+object-fit: cover;   /* 비율 유지 + 박스 꽉 채움 */
+display: block;
+}
+
+
+/* ===== Mobile: stack list item vertically (text above, image below) ===== */
+@media (max-width: 768px) {
+/* home.html / news.md에서 a태그에 inline으로 display:flex 줬으니,
+    post-list 안의 a를 강제로 세로로 변경 */
+.post-list a,
+.post-list > li > a {
+display: flex !important;
+flex-direction: column !important;
+align-items: flex-start !important;
+gap: 12px !important;
+}
+
+/* 썸네일은 모바일에서는 전체폭으로 */
+.post-thumb {
+width: 100% !important;
+flex: 0 0 auto !important;
+height: 180px !important;   /* 모바일 높이: 취향대로 160~220 */
+}
+
+/* 글 영역이 너무 좁아지지 않게 */
+.post-list a > div[style*="flex: 1"],
+.post-list a > div {
+width: 100%;
+}
+}
+
+
+/* ===== Mobile: prevent hero title from clipping ===== */
+@media (max-width: 768px) {
+.page-header h1,
+.page-header .project-name,
+h1 {
+white-space: normal !important;   /* 줄바꿈 허용 */
+overflow-wrap: anywhere;          /* 길면 적당히 끊어서 줄바꿈 */
+word-break: keep-all;             /* 한글은 단어 단위로 */
+padding: 0 16px;                  /* 좌우 여백 */
+box-sizing: border-box;
+line-height: 1.15;
+}
+
+/* 제목이 너무 크면 조금 줄이기 */
+.page-header h1,
+.page-header .project-name {
+font-size: clamp(28px, 7vw, 42px);
+}
+}
+
+
+/* ===== News page mobile layout fix ===== */
+@media (max-width: 768px) {
+/* News 목록의 한 항목을 세로로 쌓기 */
+.post-row {
+flex-direction: column !important;
+align-items: flex-start !important;
+gap: 12px !important;
+}
+
+/* 텍스트 영역이 꽉 차게 */
+.post-row > div {
+width: 100% !important;
+}
+
+/* 썸네일도 모바일에서 전체폭 */
+.post-row .post-thumb {
+width: 100% !important;
+flex: 0 0 auto !important;
+height: 180px !important;
+}
+}
+
+/* ===== People mobile ===== */
+@media (max-width: 768px) {
+
+.image-grid:not(.principal-investigator) .person-row {
+flex-direction: column;
+gap: 15px;
+}
+
+.image-grid:not(.principal-investigator) .photo {
+width: 100%;
+flex: 0 0 auto;
+}
+
+.image-grid:not(.principal-investigator) .photo img.pi-photo {
+width: 220px;
+height: 293px;
+margin: 0 auto;
+}
+
+.image-grid:not(.principal-investigator) .details {
+width: 100%;
+}
+}
+
+/* =========================================================
+  Header Dropdown Menu
+  ========================================================= */
+
+.site-nav .trigger {
+display: flex;
+align-items: center;
+}
+
+/* dropdown 전체 영역 */
+.nav-dropdown {
+position: relative;
+display: inline-block;
+}
+
+/* People / Publication */
+.dropdown-title {
+cursor: pointer;
+}
+
+/* 작은 화살표 */
+.dropdown-title::after {
+content: " ▾";
+font-size: 0.75em;
+}
+
+/* 숨겨진 하위 메뉴 */
+.dropdown-menu {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+
+min-width: 150px;
+padding: 8px 0;
+
+background-color: rgb(0, 44, 95);
+
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+
+z-index: 2000;
+}
+
+/* 마우스 올리면 표시 */
+.nav-dropdown:hover .dropdown-menu {
+display: block;
+}
+
+/* 하위 메뉴 글자 */
+.dropdown-menu a {
+display: block;
+padding: 10px 18px;
+
+color: #ffffff !important;
+white-space: nowrap;
+text-decoration: none;
+}
+
+/* 하위 메뉴 hover */
+.dropdown-menu a:hover {
+color: #ffd700 !important;
+background-color: rgba(255, 255, 255, 0.08);
+}
+
+
+/* ======================
+  Mobile
+  ====================== */
+
+@media (max-width: 768px) {
 
 .site-nav .trigger {
 display: block;
@@ -577,150 +418,58 @@ display: block;
 }
 
 .dropdown-menu {
-
 position: static;
-
 display: block;
 
 box-shadow: none;
 
 padding-left: 15px;
-
-background-color: $color-header;
-
+background-color: rgb(0, 44, 95);
 }
 
 .dropdown-menu a {
-
 padding: 8px 15px;
-
 font-size: 0.95em;
+}
 
 }
 
-
-
-/* ---------------------------------
-Hero title
---------------------------------- */
-
-.page-header h1,
-.page-header .project-name {
-
-white-space: normal !important;
-
-overflow-wrap: anywhere;
-
-word-break: keep-all;
-
-padding: 0 16px;
-
-box-sizing: border-box;
-
-line-height: 1.15;
-
-font-size: clamp(28px, 7vw, 42px);
-
+/* People / Publication menu text color */
+.site-header .dropdown-title {
+color: #ffffff !important;
 }
 
-
-
-/* ---------------------------------
-Home / News
---------------------------------- */
-
-.post-list a,
-.post-list > li > a {
-
-display: flex !important;
-
-flex-direction: column !important;
-
-align-items: flex-start !important;
-
-gap: 12px !important;
-
+/* Hover 시에만 노란색 */
+.site-header .nav-dropdown:hover .dropdown-title {
+color: #ffd700 !important;
 }
 
-.post-thumb {
+/* =========================================================
+   Stronger text colors
+   ========================================================= */
 
-width: 100% !important;
-
-flex: 0 0 auto !important;
-
-height: 180px !important;
-
+/* Main body text */
+.main-content,
+.main-content p,
+.main-content li,
+.main-content span {
+  color: #333333;
 }
 
-.post-list a > div[style*="flex: 1"],
-.post-list a > div {
-
-width: 100%;
-
+/* Section headings - darker green */
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4 {
+  color: #007a3d;
+  font-weight: 500;
 }
 
-.post-row {
-
-flex-direction: column !important;
-
-align-items: flex-start !important;
-
-gap: 12px !important;
-
+/* Links - darker blue */
+.main-content a {
+  color: #0056b3;
 }
 
-.post-row > div {
-
-width: 100% !important;
-
-}
-
-.post-row .post-thumb {
-
-width: 100% !important;
-
-flex: 0 0 auto !important;
-
-height: 180px !important;
-
-}
-
-
-
-/* ---------------------------------
-People
---------------------------------- */
-
-.image-grid(.principal-investigator) .person-row {
-
-flex-direction: column;
-
-gap: 15px;
-
-}
-
-.image-grid(.principal-investigator) .photo {
-
-width: 100%;
-
-flex: 0 0 auto;
-
-}
-
-.image-grid(.principal-investigator) .photo img.pi-photo {
-
-width: 220px;
-
-height: 293px;
-
-margin: 0 auto;
-
-}
-
-.image-grid(.principal-investigator) .details {
-
-width: 100%;
-
-}
-
+.main-content a:hover {
+  color: #003d80;
 }
