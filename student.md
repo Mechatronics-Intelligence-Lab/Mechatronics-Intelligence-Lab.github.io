@@ -2,7 +2,7 @@
 layout: page
 title: Students
 hero-image-origin: 50% 40%
-tagline: Students
+tagline: Lab Members
 permalink: /student.html
 main_image: /image/main/EV.jpg
 ---
