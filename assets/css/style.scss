@@ -433,3 +433,13 @@ ul.no-bullet {
   }
 
 }
+
+/* People / Publication menu text color */
+.site-header .dropdown-title {
+  color: #ffffff !important;
+}
+
+/* Hover 시에만 노란색 */
+.site-header .nav-dropdown:hover .dropdown-title {
+  color: #ffd700 !important;
+}
