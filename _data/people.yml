@@ -54,11 +54,6 @@
   - name: No.1
     image: 'Blank.jpg'
     bio: Coming soon
-
-  - name: No.2
-    image: 'Blank.jpg'
-    bio: Coming soon
-
   
 - role: Undergraduate Students
   people:
