@@ -1,220 +1,280 @@
-
----
-
 @import 'jekyll-theme-cayman-blog';
 
 /* =========================================================
-   1. MIL DESIGN SETTINGS
-   - 색상 / 폰트 / 크기는 여기만 수정
-   ========================================================= */
 
-/* Colors */
+MIL DESIGN SETTINGS
+
+앞으로 색상/폰트/크기는 여기만 수정
+========================================================= */
+
+/* ---------- Colors ---------- */
+
 $color-header: #002c5f;
 $color-header-text: #ffffff;
 $color-header-hover: #ffd700;
 
-$color-text: #222222;
-$color-heading: #005f35;
+$color-text: #333333;
+$color-heading: #006b3c;
 $color-link: #0056b3;
 $color-link-hover: #003d80;
+
 $color-divider: #157878;
 
-/* Font */
-$font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, "Noto Sans KR", sans-serif;
+/* ---------- Font ---------- */
 
-/* Font Size */
+$font-main: -apple-system,
+BlinkMacSystemFont,
+"Segoe UI",
+Arial,
+"Noto Sans KR",
+sans-serif;
+
+/* ---------- Font Size ---------- */
+
 $font-body: 18px;
+
 $font-h1: 36px;
 $font-h2: 30px;
 $font-h3: 24px;
 $font-h4: 20px;
+
 $font-name: 20px;
+
 $font-nav: 18px;
 
-/* Layout */
+/* ---------- Layout ---------- */
+
 $content-width: 1200px;
 $content-padding: 30px;
+
 $header-height: 56px;
 
-/* Image Size */
-$people-photo-width: 190px;
-$people-photo-height: 253px;
-
-$post-image-width: 450px;
-$post-image-height: 300px;
-
-$post-thumb-width: 300px;
-$post-thumb-height: 200px;
 
 
 /* =========================================================
-   2. GLOBAL TYPOGRAPHY
-   ========================================================= */
+2. GLOBAL TYPOGRAPHY
+========================================================= */
 
 body {
-  font-family: $font-main;
-  color: $color-text;
-  font-size: $font-body;
+font-family: $font-main;
+color: $color-text;
+font-size: $font-body;
 }
 
+/* Main contents */
+
 .main-content {
-  color: $color-text;
-  font-family: $font-main;
-  font-size: $font-body;
-  padding-top: 80px !important;
+color: $color-text;
+font-family: $font-main;
+font-size: $font-body;
+padding-top: 80px !important;
 }
 
 .main-content p,
 .main-content li,
 .main-content span {
-  color: $color-text;
+color: $color-text;
 }
 
+/* Headings */
+
 .main-content h1 {
-  color: $color-heading;
-  font-size: $font-h1;
-  font-weight: 500;
+color: $color-heading;
+font-size: $font-h1;
+font-weight: 500;
 }
 
 .main-content h2 {
-  color: $color-heading;
-  font-size: $font-h2;
-  font-weight: 500;
+color: $color-heading;
+font-size: $font-h2;
+font-weight: 500;
 }
 
 .main-content h3 {
-  color: $color-heading;
-  font-size: $font-h3;
-  font-weight: 500;
+color: $color-heading;
+font-size: $font-h3;
+font-weight: 500;
 }
 
 .main-content h4 {
-  color: $color-heading;
-  font-size: $font-h4;
-  font-weight: 500;
+color: $color-heading;
+font-size: $font-h4;
+font-weight: 500;
+}
+
+/* Links */
+
+.main-content a {
+color: $color-link;
 }
 
 .main-content a {
-  color: $color-link;
+color: $color-link-hover;
 }
 
-.main-content a:hover {
-  color: $color-link-hover;
-}
 
 
 /* =========================================================
-   3. FIXED HEADER
-   ========================================================= */
+3. HEADER
+========================================================= */
 
 .site-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100% !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  box-sizing: border-box !important;
-  z-index: 999;
-  background-color: $color-header !important;
-  border-bottom: none !important;
+position: fixed;
+
+top: 0;
+left: 0;
+right: 0;
+
+width: 100% !important;
+
+margin: 0 !important;
+padding: 0 !important;
+
+box-sizing: border-box !important;
+
+z-index: 999;
+
+background-color: $color-header !important;
+
+border-bottom: none !important;
 }
 
+/* Header wrapper */
+
 .site-header .wrapper {
-  max-width: none !important;
-  width: 100% !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  padding-left: $content-padding !important;
-  padding-right: $content-padding !important;
-  box-sizing: border-box !important;
-  background-color: $color-header !important;
+max-width: none !important;
+
+width: 100% !important;
+
+margin-left: 0 !important;
+margin-right: 0 !important;
+
+padding-left: $content-padding !important;
+padding-right: $content-padding !important;
+
+box-sizing: border-box !important;
+
+background-color: $color-header !important;
 }
+
+/* Header links */
 
 .site-header a,
 .site-header .dropdown-title {
-  color: $color-header-text !important;
-  font-size: $font-nav;
-  text-decoration: none;
+color: $color-header-text !important;
+text-decoration: none;
+
+font-size: $font-nav;
 }
 
-.site-header a:hover,
-.site-header .nav-dropdown:hover .dropdown-title {
-  color: $color-header-hover !important;
+.site-header a,
+.site-header .nav-dropdown .dropdown-title {
+color: $color-header-hover !important;
 }
+
 
 
 /* =========================================================
-   4. HEADER DROPDOWN MENU
-   ========================================================= */
+4. HEADER DROPDOWN MENU
+========================================================= */
 
 .site-nav .trigger {
-  display: flex;
-  align-items: center;
+display: flex;
+align-items: center;
 }
+
+/* Dropdown container */
 
 .nav-dropdown {
-  position: relative;
-  display: inline-block;
+position: relative;
+display: inline-block;
 }
+
+/* Dropdown title */
 
 .dropdown-title {
-  cursor: pointer;
+cursor: pointer;
 }
+
+/* Arrow */
 
 .dropdown-title::after {
-  content: " ▾";
-  font-size: 0.75em;
+content: " ▾";
+font-size: 0.75em;
 }
+
+/* Dropdown panel */
 
 .dropdown-menu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  min-width: 150px;
-  padding: 8px 0;
-  background-color: $color-header;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
-  z-index: 2000;
+display: none;
+
+position: absolute;
+
+top: 100%;
+left: 0;
+
+min-width: 150px;
+
+padding: 8px 0;
+
+background-color: $color-header;
+
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+
+z-index: 2000;
 }
 
-.nav-dropdown:hover .dropdown-menu {
-  display: block;
+/* Show dropdown */
+
+.nav-dropdown .dropdown-menu {
+display: block;
+}
+
+/* Dropdown links */
+
+.dropdown-menu a {
+display: block;
+
+padding: 10px 18px;
+
+color: $color-header-text !important;
+
+white-space: nowrap;
+
+text-decoration: none;
 }
 
 .dropdown-menu a {
-  display: block;
-  padding: 10px 18px;
-  color: $color-header-text !important;
-  white-space: nowrap;
-  text-decoration: none;
+color: $color-header-hover !important;
+
+background-color: rgba(255, 255, 255, 0.08);
 }
 
-.dropdown-menu a:hover {
-  color: $color-header-hover !important;
-  background-color: rgba(255, 255, 255, 0.08);
-}
 
 
 /* =========================================================
-   5. HERO / PAGE HEADER
-   ========================================================= */
+5. HERO / PAGE HEADER
+========================================================= */
 
 .page-header {
-  min-height: 300px;
-  padding: 80px 20px;
-  margin-top: $header-height;
-  color: #ffffff;
-  text-align: center;
-  background-color: #003366;
+min-height: 300px;
+
+padding: 80px 20px;
+
+margin-top: $header-height;
+
+color: #ffffff;
+
+text-align: center;
+
+background-color: #003366;
 }
 
 
+
 /* =========================================================
-   6. CONTENT WIDTH
-   ========================================================= */
+6. CONTENT WIDTH
+========================================================= */
 
 .post,
 .page,
@@ -223,266 +283,444 @@ body {
 .post-list,
 .main-content,
 .site-footer > .container {
-  width: 100% !important;
-  max-width: $content-width !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  padding-left: $content-padding !important;
-  padding-right: $content-padding !important;
-  box-sizing: border-box !important;
+
+width: 100% !important;
+
+max-width: $content-width !important;
+
+margin-left: auto !important;
+margin-right: auto !important;
+
+padding-left: $content-padding !important;
+padding-right: $content-padding !important;
+
+box-sizing: border-box !important;
 }
+
 
 
 /* =========================================================
-   7. PEOPLE - COMMON
-   PI와 Student 증명사진 크기를 동일하게 관리
-   ========================================================= */
+7. PEOPLE - PRINCIPAL INVESTIGATOR
+========================================================= */
 
-.image-grid ul.no-bullet {
-  display: block;
-  list-style: none;
-  padding: 0;
-  margin: 30px 0;
+.image-grid.principal-investigator ul.no-bullet {
+display: block;
 }
 
-.image-grid ul.no-bullet > li {
-  width: 100%;
-  padding: 0;
-  margin-bottom: 40px;
-  text-align: left;
+.image-grid.principal-investigator ul.no-bullet > li .person-row {
+
+display: flex;
+
+flex-wrap: wrap;
+
+gap: 30px;
+
+align-items: flex-start;
+
+justify-content: flex-start;
+
+margin-bottom: 40px;
+
+text-align: left;
 }
 
-.image-grid .person-row {
-  display: flex;
-  align-items: flex-start;
-  gap: 30px;
-  width: 100%;
+.person-row .photo {
+flex: 0 0 auto;
 }
 
-.image-grid .photo {
-  flex: 0 0 $people-photo-width;
-  width: $people-photo-width;
-  margin: 0;
+.person-row .photo img.pi-photo {
+
+width: 300px;
+
+height: auto;
+
+border-radius: 0;
+
+margin: 0;
 }
 
-.image-grid .photo img.pi-photo {
-  width: $people-photo-width;
-  height: $people-photo-height;
-  object-fit: cover;
-  object-position: center;
-  display: block;
-  border-radius: 0;
-  margin: 0;
+.person-row .details {
+
+flex: 1 1 0;
+
+min-width: 300px;
 }
 
-.image-grid .details {
-  flex: 1;
-  min-width: 0;
-  text-align: left;
+.person-row .photo .name {
+
+text-align: center;
+
+font-size: 1em;
+
+color: $color-heading;
+
+margin-top: 10px;
 }
 
-.image-grid .details .name {
-  text-align: left;
-  font-size: $font-name;
-  color: $color-heading;
-  margin-top: 0;
-  margin-bottom: 12px;
-}
-
-.image-grid .details p {
-  text-align: left;
-}
-
-/* 현재 pi.md의 HongYoungsun.jpg도 동일한 크기로 강제 */
-.main-content img[src$="HongYoungsun.jpg"] {
-  width: $people-photo-width !important;
-  height: $people-photo-height !important;
-  max-width: none !important;
-  object-fit: cover;
-  object-position: center;
-  display: block;
-}
 
 
 /* =========================================================
-   8. LIST UTILITIES
-   ========================================================= */
+8. PEOPLE - STUDENTS / ALUMNI
+========================================================= */
+
+.image-grid(.principal-investigator) ul.no-bullet {
+
+display: block;
+
+list-style: none;
+
+padding: 0;
+
+margin: 30px 0;
+}
+
+.image-grid(.principal-investigator) ul.no-bullet > li {
+
+width: 100%;
+
+padding: 0;
+
+margin-bottom: 40px;
+
+text-align: left;
+}
+
+/* Photo + information */
+
+.image-grid(.principal-investigator) .person-row {
+
+display: flex;
+
+align-items: flex-start;
+
+gap: 30px;
+
+width: 100%;
+}
+
+/* Photo area */
+
+.image-grid(.principal-investigator) .photo {
+
+flex: 0 0 220px;
+
+width: 220px;
+
+margin: 0;
+}
+
+/* Student image */
+
+.image-grid(.principal-investigator) .photo img.pi-photo {
+
+width: 220px;
+
+height: 293px;
+
+object-fit: cover;
+
+object-position: center;
+
+display: block;
+
+border-radius: 0;
+
+margin: 0;
+}
+
+/* Student information */
+
+.image-grid(.principal-investigator) .details {
+
+flex: 1;
+
+min-width: 0;
+
+text-align: left;
+}
+
+/* Student name */
+
+.image-grid(.principal-investigator) .details .name {
+
+text-align: left;
+
+font-size: $font-name;
+
+color: $color-heading;
+
+margin-top: 0;
+
+margin-bottom: 12px;
+}
+
+.image-grid(.principal-investigator) .details,
+.image-grid(.principal-investigator) .details p {
+
+text-align: left;
+}
+
+
+
+/* =========================================================
+9. LIST UTILITIES
+========================================================= */
 
 ul.no-bullet {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
+
+list-style: none;
+
+padding-left: 0;
+
+margin: 0;
 }
 
 .no-wrap {
-  white-space: nowrap;
+white-space: nowrap;
 }
 
 
-/* =========================================================
-   9. HOME / NEWS IMAGES
-   ========================================================= */
 
-/* 게시글 상세 페이지 우측 큰 이미지 */
+/* =========================================================
+10. HOME / NEWS THUMBNAILS
+========================================================= */
+
 .post-image {
-  width: $post-image-width;
-  height: $post-image-height;
-  flex-shrink: 0;
+
+width: 300px;
+
+height: 200px;
+
+flex-shrink: 0;
 }
 
 .post-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 5px;
-  display: block;
+
+width: 100%;
+
+height: 100%;
+
+object-fit: cover;
+
+border-radius: 5px;
+
+display: block;
 }
 
-/* Home / News 목록 썸네일 */
+/* Home / News list thumbnails */
+
 .post-thumb {
-  flex: 0 0 $post-thumb-width;
-  width: $post-thumb-width;
-  height: $post-thumb-height;
-  overflow: hidden;
-  border-radius: 5px;
+
+flex: 0 0 300px;
+
+width: 300px;
+
+height: 200px;
+
+overflow: hidden;
+
+border-radius: 5px;
 }
 
 .post-thumb img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+
+width: 100%;
+
+height: 100%;
+
+object-fit: cover;
+
+display: block;
 }
 
 
+
 /* =========================================================
-   10. MOBILE
-   ========================================================= */
+11. MOBILE
+========================================================= */
 
 @media (max-width: 768px) {
 
-  /* Header / Navigation */
-  .site-nav,
-  .site-nav ul,
-  .navigation,
-  .menu,
-  .nav-links,
-  .navbar-menu,
-  .mobile-menu {
-    background-color: $color-header !important;
-  }
+/* ---------------------------------
+Header / Navigation
+--------------------------------- */
 
-  .site-nav a,
-  .navigation a,
-  .menu a,
-  .nav-links a,
-  .navbar-menu a,
-  .mobile-menu a {
-    color: $color-header-text !important;
-  }
+.site-nav,
+.site-nav ul,
+.navigation,
+.menu,
+.nav-links,
+.navbar-menu,
+.mobile-menu {
 
-  .site-nav .trigger {
-    display: block;
-  }
+background-color: $color-header !important;
 
-  .nav-dropdown {
-    display: block;
-  }
+}
 
-  .dropdown-menu {
-    position: static;
-    display: block;
-    box-shadow: none;
-    padding-left: 15px;
-    background-color: $color-header;
-  }
+.site-nav a,
+.navigation a,
+.menu a,
+.nav-links a,
+.navbar-menu a,
+.mobile-menu a {
 
-  .dropdown-menu a {
-    padding: 8px 15px;
-    font-size: 0.95em;
-  }
+color: $color-header-text !important;
 
-  /* Hero */
-  .page-header h1,
-  .page-header .project-name {
-    white-space: normal !important;
-    overflow-wrap: anywhere;
-    word-break: keep-all;
-    padding: 0 16px;
-    box-sizing: border-box;
-    line-height: 1.15;
-    font-size: clamp(28px, 7vw, 42px);
-  }
+}
 
-  /* Home / News */
-  .post-list a,
-  .post-list > li > a {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: flex-start !important;
-    gap: 12px !important;
-  }
+.site-nav .trigger {
+display: block;
+}
 
-  .post-thumb {
-    width: 100% !important;
-    height: 180px !important;
-    flex: 0 0 auto !important;
-  }
+.nav-dropdown {
+display: block;
+}
 
-  .post-list a > div[style*="flex: 1"],
-  .post-list a > div {
-    width: 100%;
-  }
+.dropdown-menu {
 
-  .post-row {
-    flex-direction: column !important;
-    align-items: flex-start !important;
-    gap: 12px !important;
-  }
+position: static;
 
-  .post-row > div {
-    width: 100% !important;
-  }
+display: block;
 
-  .post-row .post-thumb {
-    width: 100% !important;
-    height: 180px !important;
-    flex: 0 0 auto !important;
-  }
+box-shadow: none;
 
-  /* 상세 게시글 이미지는 모바일에서 화면 폭에 맞춤 */
-  .post-image {
-    width: 100%;
-    max-width: $post-image-width;
-    height: auto;
-  }
+padding-left: 15px;
 
-  .post-image img {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 3 / 2;
-    object-fit: cover;
-  }
+background-color: $color-header;
 
-  /* People */
-  .image-grid .person-row {
-    flex-direction: column;
-    gap: 15px;
-  }
+}
 
-  .image-grid .photo {
-    width: 100%;
-    flex: 0 0 auto;
-  }
+.dropdown-menu a {
 
-  .image-grid .photo img.pi-photo,
-  .main-content img[src$="HongYoungsun.jpg"] {
-    width: $people-photo-width !important;
-    height: $people-photo-height !important;
-    margin: 0 auto;
-  }
+padding: 8px 15px;
 
-  .image-grid .details {
-    width: 100%;
-  }
+font-size: 0.95em;
+
+}
+
+
+
+/* ---------------------------------
+Hero title
+--------------------------------- */
+
+.page-header h1,
+.page-header .project-name {
+
+white-space: normal !important;
+
+overflow-wrap: anywhere;
+
+word-break: keep-all;
+
+padding: 0 16px;
+
+box-sizing: border-box;
+
+line-height: 1.15;
+
+font-size: clamp(28px, 7vw, 42px);
+
+}
+
+
+
+/* ---------------------------------
+Home / News
+--------------------------------- */
+
+.post-list a,
+.post-list > li > a {
+
+display: flex !important;
+
+flex-direction: column !important;
+
+align-items: flex-start !important;
+
+gap: 12px !important;
+
+}
+
+.post-thumb {
+
+width: 100% !important;
+
+flex: 0 0 auto !important;
+
+height: 180px !important;
+
+}
+
+.post-list a > div[style*="flex: 1"],
+.post-list a > div {
+
+width: 100%;
+
+}
+
+.post-row {
+
+flex-direction: column !important;
+
+align-items: flex-start !important;
+
+gap: 12px !important;
+
+}
+
+.post-row > div {
+
+width: 100% !important;
+
+}
+
+.post-row .post-thumb {
+
+width: 100% !important;
+
+flex: 0 0 auto !important;
+
+height: 180px !important;
+
+}
+
+
+
+/* ---------------------------------
+People
+--------------------------------- */
+
+.image-grid(.principal-investigator) .person-row {
+
+flex-direction: column;
+
+gap: 15px;
+
+}
+
+.image-grid(.principal-investigator) .photo {
+
+width: 100%;
+
+flex: 0 0 auto;
+
+}
+
+.image-grid(.principal-investigator) .photo img.pi-photo {
+
+width: 220px;
+
+height: 293px;
+
+margin: 0 auto;
+
+}
+
+.image-grid(.principal-investigator) .details {
+
+width: 100%;
+
+}
+
 }
