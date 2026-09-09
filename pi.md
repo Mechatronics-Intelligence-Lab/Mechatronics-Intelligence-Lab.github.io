@@ -7,7 +7,7 @@ main_image: /image/main/EV.jpg
 ---
 
 <div style="display: flex; align-items: left;">
-  <img src="/image/HongYoungsun.jpg" width="30%" height="30%">
+  <img src="/image/HongYoungsun.jpg" class="pi-photo">
   <p>  &nbsp;&nbsp;   Hong Youngsun
   <br>
   <br> &nbsp;&nbsp;   Assistant Professor
