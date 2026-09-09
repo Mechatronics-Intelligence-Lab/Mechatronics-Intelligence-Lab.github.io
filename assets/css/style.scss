@@ -443,3 +443,33 @@ ul.no-bullet {
 .site-header .nav-dropdown:hover .dropdown-title {
   color: #ffd700 !important;
 }
+
+/* =========================================================
+   Stronger text colors
+   ========================================================= */
+
+/* Main body text */
+.main-content,
+.main-content p,
+.main-content li,
+.main-content span {
+  color: #333333;
+}
+
+/* Section headings - darker green */
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4 {
+  color: #007a3d;
+  font-weight: 500;
+}
+
+/* Links - darker blue */
+.main-content a {
+  color: #0056b3;
+}
+
+.main-content a:hover {
+  color: #003d80;
+}
