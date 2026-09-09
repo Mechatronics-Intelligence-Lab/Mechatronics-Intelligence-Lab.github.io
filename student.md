@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Student
-menu-order: 20
+title: Students
 hero-image-origin: 50% 40%
 tagline: Students
 permalink: /student.html
@@ -13,6 +12,8 @@ main_image: /image/main/EV.jpg
 {% assign people = site.data.people -%}
 
 {% for group in people %}
+
+  {% unless group.role == 'PI' or group.role == 'Principal Investigator' %}
 
   <div class="image-grid {{ group.role | downcase | replace: ' ', '-' }}">
 
@@ -96,6 +97,8 @@ main_image: /image/main/EV.jpg
                margin: 40px 0;">
   {% endunless %}
 
+  {% endunless %}
+
 {% endfor %}
 
 </div>
@@ -104,13 +107,15 @@ main_image: /image/main/EV.jpg
 ---
 
 <div class="row">
+
   <div class="col-xs-12 col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2" markdown="1">
 
 ### Joining the group
 
-Students who are interested in our graduate program and Internship are very welcome.<br>
+Students who are interested in our graduate program and internships are very welcome.<br>
 If you have any questions about admission or research topics, please feel free to contact Professor Youngsun Hong at any time.<br>
 You may reach out by phone or email, and we will be happy to provide detailed information.
 
   </div>
+
 </div>
