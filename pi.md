@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Principal Investigator
-tagline: Principal Investigator
+tagline: Mechatronics Intelligence Lab
 permalink: /pi.html
 main_image: /image/main/EV.jpg
 ---
