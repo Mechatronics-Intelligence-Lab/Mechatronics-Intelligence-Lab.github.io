@@ -91,9 +91,12 @@ text-align: left;
 flex: 0 0 auto;
 }
 
+/* 교수 사진: 190 × 253 */
 .person-row .photo img.pi-photo {
-width: 300px;
-height: auto;
+width: 190px;
+height: 253px;
+object-fit: cover;
+object-position: center;
 border-radius: 0;
 margin: 0;
 }
@@ -134,17 +137,17 @@ gap: 30px;
 width: 100%;
 }
 
-/* 사진 영역 */
+/* 사진 영역: 190px */
 .image-grid:not(.principal-investigator) .photo {
-flex: 0 0 220px;
-width: 220px;
+flex: 0 0 190px;
+width: 190px;
 margin: 0;
 }
 
-/* 모든 사진 크기 동일 */
+/* 학생 사진: 190 × 253 */
 .image-grid:not(.principal-investigator) .photo img.pi-photo {
-width: 220px;
-height: 293px;
+width: 190px;
+height: 253px;
 object-fit: cover;
 object-position: center;
 display: block;
@@ -327,9 +330,10 @@ width: 100%;
 flex: 0 0 auto;
 }
 
+/* 모바일 학생 사진도 190 × 253 */
 .image-grid:not(.principal-investigator) .photo img.pi-photo {
-width: 220px;
-height: 293px;
+width: 190px;
+height: 253px;
 margin: 0 auto;
 }
 
