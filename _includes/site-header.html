@@ -19,18 +19,33 @@
           </span>
         </label>
 
-        <div class="trigger">
-          {% for ref in page_refs %}
-            {% assign my_page = site.pages | where: "ref", ref | first %}
-            {% if my_page.title %}
-              {% if my_page.title contains "404" %}
-              {% else %}
-                <a class="page-link" href="{{ my_page.url | absolute_url }}">{{ my_page.title | escape }}</a>
-              {% endif %}
-            {% endif %}
-          {% endfor %}
-        </div>
-      </nav>
-    {% endif %}
+<div class="trigger">
+
+  <a class="page-link" href="{{ '/news.html' | relative_url }}">News</a>
+
+  <a class="page-link" href="{{ '/research.html' | relative_url }}">Research</a>
+
+  <!-- People dropdown -->
+  <div class="nav-dropdown">
+    <span class="page-link dropdown-title">People</span>
+
+    <div class="dropdown-menu">
+      <a href="{{ '/pi.html' | relative_url }}">PI</a>
+      <a href="{{ '/student.html' | relative_url }}">Students</a>
+    </div>
   </div>
+
+  <!-- Publication dropdown -->
+  <div class="nav-dropdown">
+    <span class="page-link dropdown-title">Publication</span>
+
+    <div class="dropdown-menu">
+      <a href="{{ '/paper.html' | relative_url }}">Papers</a>
+      <a href="{{ '/project.html' | relative_url }}">Projects</a>
+    </div>
+  </div>
+
+  <a class="page-link" href="{{ '/contact.html' | relative_url }}">Contact</a>
+
+</div>
 </header>
