@@ -1,59 +1,50 @@
----
+
 ---
 
 @import 'jekyll-theme-cayman-blog';
 
-
 /* =========================================================
    1. MIL DESIGN SETTINGS
-   - 앞으로 색상/폰트/크기는 여기만 수정
+   - 색상 / 폰트 / 크기는 여기만 수정
    ========================================================= */
 
-/* ---------- Colors ---------- */
-
+/* Colors */
 $color-header: #002c5f;
 $color-header-text: #ffffff;
 $color-header-hover: #ffd700;
 
-$color-text: #333333;
-$color-heading: #006b3c;
+$color-text: #222222;
+$color-heading: #005f35;
 $color-link: #0056b3;
 $color-link-hover: #003d80;
-
 $color-divider: #157878;
 
+/* Font */
+$font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, "Noto Sans KR", sans-serif;
 
-/* ---------- Font ---------- */
-
-$font-main: -apple-system,
-            BlinkMacSystemFont,
-            "Segoe UI",
-            Arial,
-            "Noto Sans KR",
-            sans-serif;
-
-
-/* ---------- Font Size ---------- */
-
+/* Font Size */
 $font-body: 18px;
-
 $font-h1: 36px;
 $font-h2: 30px;
 $font-h3: 24px;
 $font-h4: 20px;
-
 $font-name: 20px;
-
 $font-nav: 18px;
 
-
-/* ---------- Layout ---------- */
-
+/* Layout */
 $content-width: 1200px;
 $content-padding: 30px;
-
 $header-height: 56px;
 
+/* Image Size */
+$people-photo-width: 190px;
+$people-photo-height: 253px;
+
+$post-image-width: 450px;
+$post-image-height: 300px;
+
+$post-thumb-width: 300px;
+$post-thumb-height: 200px;
 
 
 /* =========================================================
@@ -65,9 +56,6 @@ body {
   color: $color-text;
   font-size: $font-body;
 }
-
-
-/* Main contents */
 
 .main-content {
   color: $color-text;
@@ -81,9 +69,6 @@ body {
 .main-content span {
   color: $color-text;
 }
-
-
-/* Headings */
 
 .main-content h1 {
   color: $color-heading;
@@ -109,9 +94,6 @@ body {
   font-weight: 500;
 }
 
-
-/* Links */
-
 .main-content a {
   color: $color-link;
 }
@@ -121,67 +103,46 @@ body {
 }
 
 
-
 /* =========================================================
-   3. HEADER
+   3. FIXED HEADER
    ========================================================= */
 
 .site-header {
   position: fixed;
-
   top: 0;
   left: 0;
   right: 0;
-
   width: 100% !important;
-
   margin: 0 !important;
   padding: 0 !important;
-
   box-sizing: border-box !important;
-
   z-index: 999;
-
   background-color: $color-header !important;
-
   border-bottom: none !important;
 }
 
-
-/* Header wrapper */
-
 .site-header .wrapper {
   max-width: none !important;
-
   width: 100% !important;
-
   margin-left: 0 !important;
   margin-right: 0 !important;
-
   padding-left: $content-padding !important;
   padding-right: $content-padding !important;
-
   box-sizing: border-box !important;
-
   background-color: $color-header !important;
 }
-
-
-/* Header links */
 
 .site-header a,
 .site-header .dropdown-title {
   color: $color-header-text !important;
-  text-decoration: none;
-
   font-size: $font-nav;
+  text-decoration: none;
 }
 
 .site-header a:hover,
 .site-header .nav-dropdown:hover .dropdown-title {
   color: $color-header-hover !important;
 }
-
 
 
 /* =========================================================
@@ -193,79 +154,48 @@ body {
   align-items: center;
 }
 
-
-/* Dropdown container */
-
 .nav-dropdown {
   position: relative;
   display: inline-block;
 }
 
-
-/* Dropdown title */
-
 .dropdown-title {
   cursor: pointer;
 }
-
-
-/* Arrow */
 
 .dropdown-title::after {
   content: " ▾";
   font-size: 0.75em;
 }
 
-
-/* Dropdown panel */
-
 .dropdown-menu {
   display: none;
-
   position: absolute;
-
   top: 100%;
   left: 0;
-
   min-width: 150px;
-
   padding: 8px 0;
-
   background-color: $color-header;
-
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
-
   z-index: 2000;
 }
-
-
-/* Show dropdown */
 
 .nav-dropdown:hover .dropdown-menu {
   display: block;
 }
 
-
-/* Dropdown links */
-
 .dropdown-menu a {
   display: block;
-
   padding: 10px 18px;
-
   color: $color-header-text !important;
-
   white-space: nowrap;
-
   text-decoration: none;
 }
 
 .dropdown-menu a:hover {
   color: $color-header-hover !important;
-
   background-color: rgba(255, 255, 255, 0.08);
 }
-
 
 
 /* =========================================================
@@ -274,18 +204,12 @@ body {
 
 .page-header {
   min-height: 300px;
-
   padding: 80px 20px;
-
   margin-top: $header-height;
-
   color: #ffffff;
-
   text-align: center;
-
   background-color: #003366;
 }
-
 
 
 /* =========================================================
@@ -299,285 +223,145 @@ body {
 .post-list,
 .main-content,
 .site-footer > .container {
-
   width: 100% !important;
-
   max-width: $content-width !important;
-
   margin-left: auto !important;
   margin-right: auto !important;
-
   padding-left: $content-padding !important;
   padding-right: $content-padding !important;
-
   box-sizing: border-box !important;
 }
 
 
-
 /* =========================================================
-   7. PEOPLE - PRINCIPAL INVESTIGATOR
+   7. PEOPLE - COMMON
+   PI와 Student 증명사진 크기를 동일하게 관리
    ========================================================= */
 
-.image-grid.principal-investigator ul.no-bullet {
+.image-grid ul.no-bullet {
   display: block;
-}
-
-
-.image-grid.principal-investigator ul.no-bullet > li .person-row {
-
-  display: flex;
-
-  flex-wrap: wrap;
-
-  gap: 30px;
-
-  align-items: flex-start;
-
-  justify-content: flex-start;
-
-  margin-bottom: 40px;
-
-  text-align: left;
-}
-
-
-.person-row .photo {
-  flex: 0 0 auto;
-}
-
-
-.person-row .photo img.pi-photo {
-
-  width: 300px;
-
-  height: auto;
-
-  border-radius: 0;
-
-  margin: 0;
-}
-
-
-.person-row .details {
-
-  flex: 1 1 0;
-
-  min-width: 300px;
-}
-
-
-.person-row .photo .name {
-
-  text-align: center;
-
-  font-size: 1em;
-
-  color: $color-heading;
-
-  margin-top: 10px;
-}
-
-
-
-/* =========================================================
-   8. PEOPLE - STUDENTS / ALUMNI
-   ========================================================= */
-
-.image-grid:not(.principal-investigator) ul.no-bullet {
-
-  display: block;
-
   list-style: none;
-
   padding: 0;
-
   margin: 30px 0;
 }
 
-
-.image-grid:not(.principal-investigator) ul.no-bullet > li {
-
+.image-grid ul.no-bullet > li {
   width: 100%;
-
   padding: 0;
-
   margin-bottom: 40px;
-
   text-align: left;
 }
 
-
-/* Photo + information */
-
-.image-grid:not(.principal-investigator) .person-row {
-
+.image-grid .person-row {
   display: flex;
-
   align-items: flex-start;
-
   gap: 30px;
-
   width: 100%;
 }
 
-
-/* Photo area */
-
-.image-grid:not(.principal-investigator) .photo {
-
-  flex: 0 0 220px;
-
-  width: 220px;
-
+.image-grid .photo {
+  flex: 0 0 $people-photo-width;
+  width: $people-photo-width;
   margin: 0;
 }
 
-
-/* Student image */
-
-.image-grid:not(.principal-investigator) .photo img.pi-photo {
-
-  width: 220px;
-
-  height: 293px;
-
+.image-grid .photo img.pi-photo {
+  width: $people-photo-width;
+  height: $people-photo-height;
   object-fit: cover;
-
   object-position: center;
-
   display: block;
-
   border-radius: 0;
-
   margin: 0;
 }
 
-
-/* Student information */
-
-.image-grid:not(.principal-investigator) .details {
-
+.image-grid .details {
   flex: 1;
-
   min-width: 0;
-
   text-align: left;
 }
 
-
-/* Student name */
-
-.image-grid:not(.principal-investigator) .details .name {
-
+.image-grid .details .name {
   text-align: left;
-
   font-size: $font-name;
-
   color: $color-heading;
-
   margin-top: 0;
-
   margin-bottom: 12px;
 }
 
-
-.image-grid:not(.principal-investigator) .details,
-.image-grid:not(.principal-investigator) .details p {
-
+.image-grid .details p {
   text-align: left;
 }
 
+/* 현재 pi.md의 HongYoungsun.jpg도 동일한 크기로 강제 */
+.main-content img[src$="HongYoungsun.jpg"] {
+  width: $people-photo-width !important;
+  height: $people-photo-height !important;
+  max-width: none !important;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
 
 
 /* =========================================================
-   9. LIST UTILITIES
+   8. LIST UTILITIES
    ========================================================= */
 
 ul.no-bullet {
-
   list-style: none;
-
   padding-left: 0;
-
   margin: 0;
 }
-
 
 .no-wrap {
   white-space: nowrap;
 }
 
 
-
 /* =========================================================
-   10. HOME / NEWS THUMBNAILS
+   9. HOME / NEWS IMAGES
    ========================================================= */
 
+/* 게시글 상세 페이지 우측 큰 이미지 */
 .post-image {
-
-  width: 300px;
-
-  height: 200px;
-
+  width: $post-image-width;
+  height: $post-image-height;
   flex-shrink: 0;
 }
 
-
 .post-image img {
-
   width: 100%;
-
   height: 100%;
-
   object-fit: cover;
-
   border-radius: 5px;
-
   display: block;
 }
 
-
-/* Home / News list thumbnails */
-
+/* Home / News 목록 썸네일 */
 .post-thumb {
-
-  flex: 0 0 300px;
-
-  width: 300px;
-
-  height: 200px;
-
+  flex: 0 0 $post-thumb-width;
+  width: $post-thumb-width;
+  height: $post-thumb-height;
   overflow: hidden;
-
   border-radius: 5px;
 }
-
 
 .post-thumb img {
-
   width: 100%;
-
   height: 100%;
-
   object-fit: cover;
-
   display: block;
 }
-
 
 
 /* =========================================================
-   11. MOBILE
+   10. MOBILE
    ========================================================= */
 
 @media (max-width: 768px) {
 
-
-  /* ---------------------------------
-     Header / Navigation
-     --------------------------------- */
-
+  /* Header / Navigation */
   .site-nav,
   .site-nav ul,
   .navigation,
@@ -585,10 +369,8 @@ ul.no-bullet {
   .nav-links,
   .navbar-menu,
   .mobile-menu {
-
     background-color: $color-header !important;
   }
-
 
   .site-nav a,
   .navigation a,
@@ -596,162 +378,111 @@ ul.no-bullet {
   .nav-links a,
   .navbar-menu a,
   .mobile-menu a {
-
     color: $color-header-text !important;
   }
-
 
   .site-nav .trigger {
     display: block;
   }
 
-
   .nav-dropdown {
     display: block;
   }
 
-
   .dropdown-menu {
-
     position: static;
-
     display: block;
-
     box-shadow: none;
-
     padding-left: 15px;
-
     background-color: $color-header;
   }
 
-
   .dropdown-menu a {
-
     padding: 8px 15px;
-
     font-size: 0.95em;
   }
 
-
-
-  /* ---------------------------------
-     Hero title
-     --------------------------------- */
-
+  /* Hero */
   .page-header h1,
   .page-header .project-name {
-
     white-space: normal !important;
-
     overflow-wrap: anywhere;
-
     word-break: keep-all;
-
     padding: 0 16px;
-
     box-sizing: border-box;
-
     line-height: 1.15;
-
     font-size: clamp(28px, 7vw, 42px);
   }
 
-
-
-  /* ---------------------------------
-     Home / News
-     --------------------------------- */
-
+  /* Home / News */
   .post-list a,
   .post-list > li > a {
-
     display: flex !important;
-
     flex-direction: column !important;
-
     align-items: flex-start !important;
-
     gap: 12px !important;
   }
 
-
   .post-thumb {
-
     width: 100% !important;
-
-    flex: 0 0 auto !important;
-
     height: 180px !important;
+    flex: 0 0 auto !important;
   }
-
 
   .post-list a > div[style*="flex: 1"],
   .post-list a > div {
-
     width: 100%;
   }
 
-
   .post-row {
-
     flex-direction: column !important;
-
     align-items: flex-start !important;
-
     gap: 12px !important;
   }
 
-
   .post-row > div {
-
     width: 100% !important;
   }
-
 
   .post-row .post-thumb {
-
     width: 100% !important;
-
-    flex: 0 0 auto !important;
-
     height: 180px !important;
+    flex: 0 0 auto !important;
   }
 
+  /* 상세 게시글 이미지는 모바일에서 화면 폭에 맞춤 */
+  .post-image {
+    width: 100%;
+    max-width: $post-image-width;
+    height: auto;
+  }
 
+  .post-image img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+  }
 
-  /* ---------------------------------
-     People
-     --------------------------------- */
-
-  .image-grid:not(.principal-investigator) .person-row {
-
+  /* People */
+  .image-grid .person-row {
     flex-direction: column;
-
     gap: 15px;
   }
 
-
-  .image-grid:not(.principal-investigator) .photo {
-
+  .image-grid .photo {
     width: 100%;
-
     flex: 0 0 auto;
   }
 
-
-  .image-grid:not(.principal-investigator) .photo img.pi-photo {
-
-    width: 220px;
-
-    height: 293px;
-
+  .image-grid .photo img.pi-photo,
+  .main-content img[src$="HongYoungsun.jpg"] {
+    width: $people-photo-width !important;
+    height: $people-photo-height !important;
     margin: 0 auto;
   }
 
-
-  .image-grid:not(.principal-investigator) .details {
-
+  .image-grid .details {
     width: 100%;
   }
-
 }
