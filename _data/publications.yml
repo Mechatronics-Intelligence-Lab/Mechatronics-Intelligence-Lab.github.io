@@ -3,15 +3,70 @@
   journal: "IEEE Transactions on Industrial Electronics"
   date: 2025-01-06
 
+- title: "PVDF Binder in All-Solid-State Lithium Batteries with NCM/Sulfide/PVDF Cathode, Oxide/PEO SE layer, and Li-metal Anode"
+  author: "Byeong-Su Kang, Se hyeon Jeon, Sang Jun Park, Young-Woong Song, Jinsub Lim, Young sun Hong, Min-Young Kim, Ho-sung Kim"
+  journal: "Journal of The Electrochemical Society"
+  date: 2024-09-13
+
 - title: "Effect of High-Temperature Thermal Management on Degradation of Li-ion Battery for Fast Charging"
   author: "Sang-Jun Park, Young-Woong Song, Byeongsu Kang, Min-Jun Kang, Min-Young Kim, Yeong-Jun Choi, Jinsun Lim, Ho-sung Kim, Youngsun Hong"
   journal: "IEEE Transactions on Transportation Electrification"
   date: 2024-06-18
 
+- title: "Improvement of PEO-based composite solid electrolyte sheet using particle-size-controlled Ga-Rb-doped LLZO with high ion conductivity"
+  author: "Dahee Hwang, Min-Young Kim, Young-Woong Song, Lee HyoChan, Su-Jin Kim, Byeong-su Kang, Youngsun Hong, Ho-sung Kim, Jaekook Kim, Jinsub Lim"
+  journal: "Solid State Ionics"
+  date: 2023-04-10
+
+- title: "Enhancing Hydrophilicity of Thick Electrodes for High Energy Density Aqueous Batteries"
+  author: "Jungeun Lee, Hyeonsoo Lee, Cheol Bak, Youngsun Hong, Daeha Joung, Jeong Beom Ko, Yong Min Lee & Chanhoon Kim"
+  journal: "Nano-Micro Letters"
+  date: 2023-09-01
+
 - title: "Depth of discharge characteristics and control strategy to optimize electric vehicle battery life"
   author: "Sang-Jun Park, Young-Woong Song, Byeong-Su Kang, Woo-Joong Kim, Yeong-Jun Choi, Chanhoon Kim, Young-Sun Hong"
   journal: "Journal of Energy Storage"
   date: 2023-03-01
+
+- title: "Improving the biohydrogen production potential of macroalgal biomass through mild acid dispersion pretreatment"
+  author: "Thi Ngoc Bao Dung, Chyi-How Lay, D Duc Nguyen, 창승우, J Rajesh Banu,홍영선, 박정훈"
+  journal: "Fuel"
+  date: 2023-01-15
+
+- title: "Synthesis of Garnet LLZO by Aliovalent Co-Doping, and Electrochemical Behavior of Composite Solid Electrolyte for All-Solid Lithium Batteries"
+  author: "Min-Young Kim, Byeong-Su Kang, Young-Woong Song, Sang-Jun Park, Jinsub Lim, Hyungchan Kim, YoungSun Hong, Ho-Sung Kim, Jong-Hun Han"
+  journal: "Journal of The Electrochemical Society"
+  date: 2022-12-08
+
+- title: "Influence of the particle size of the Ni-rich cathode material on the electrochemical properties for all solid-state batteries"
+  author: "Young-Woong Song, Kookjin Heo, Dahee Hwang, Min-Young Kim, Hyochan Lee, Byeong-Su Kang, Youngsun Hong, Ho-Sung Kim, Jaekook Kim, Jinsub Lim"
+  journal: "Ionics"
+  date: 2022-12-01
+
+- title: "LATP-coated NCM-811 for high-temperature operation of all-solid lithium battery"
+  author: "Min-Young Kim, Young-Woong Song, Jinsub Lim, Sang-Jun Park, Byeong-Su Kang, Youngsun Hong, Ho-Sung Kim, Jong Hun Han"
+  journal: "Materials Chemistry and Physics"
+  date: 2022-10-15
+
+- title: "Surface hydration of fibrous filters by using water-absorbing metal–organic frameworks for efficient ultrafine particulate matter removal"
+  author: "Won-Tae Koo, Youngsun Hong, Daeha Joung, Chanhoon Kim"
+  journal: "Chemical Engineering Journal"
+  date: 2022-10-15
+
+- title: "A highly sensitive and flexible capacitive pressure sensor based on alignment airgap dielectric"
+  author: "Soo-Wan Kim, Geum-Yoon Oh, Kang-In Lee, Young-Jin Yang, Jeong-Beom Ko, Young-Woo Kim, Young-Sun Hong"
+  journal: "Sensors"
+  date: 2022-09-28
+
+- title: "Fabrication and electrochemical behavior of flexible composite solid electrolyte for bipolar solid-state lithium batteries"
+  author: "Young-Woong Song, Sang-Jun Park, Min-Young Kim, Byeong-Su Kang, Youngsun Hong, Woo Joong Kim, Jong-Hun Han, Jinsub Lim, Ho-Sung Kim"
+  journal: "Journal of Power Sources"
+  date: 2022-09-15
+
+- title: "Synthesis and electrochemical properties of nano-composite IrO2/TiO2 anode catalyst for SPE electrolysis cell"
+  author: "Min Young Kim, Hee-Jung Ban, Young-Woong Song, Jinsub Lim, Sang-Jun Park, Woo Joong Kim, Youngsun Hong, Byeong-Su Kang, Ho-Sung Kim"
+  journal: "International Journal of Hydrogen Energy"
+  date: 2022-08-26
 
 - title: "Development of a fault-diagnosis system through the power conversion module of an electric vehicle fast charger"
   author: "Sang-Jun Park, Woo-Joong Kim, Byeong-Su Kang, Sung-Hyun Jang, Yeong-Jun Choi, Young-Sun Hong"
@@ -22,6 +77,16 @@
   author: "Woojoong Kim, Munsu Lee, Sang-Jun Park, Sung-Hyun Jang, Byeong-Su Kang, Namjin Kim, Young-Sun Hong"
   journal: "Energies"
   date: 2022-07-29
+
+- title: "Electrochemical behavior of rutile phase TiO2-coated NCM materials for ASLBs operated at a high temperature"
+  author: "Hee Jung Ban, Min-Young Kim, Sang-Jun Park, Byeong-Su Kang, Jinsub Lim, Youngsun Hong, Seung Hoon Yang, Ho-Sung Kim"
+  journal: "Surface and Coatings Technology"
+  date: 2022-01-25
+
+- title: "Effects of LiFSi and LMO-Coated NCM on Capacity and Cycle Characteristics of All-Solid Lithium Batteries"
+  author: "Sang-Jun Park, Min Young Kim, Jin-Sub Lim, Byeong-Su Kang, Yoong-Ahm Kim, Young Sun Hong, Hyung Chan Kim, Ho-Sung Kim"
+  journal: "Journal of The Electrochemical Society"
+  date: 2020-06-15
 
 - title: "Early fault diagnosis and classification of ball bearing using enhanced kurtogram and Gaussian mixture model"
   author: "Youngsun Hong, Minsu Kim, Hyunho Lee, Jong Jin Park, Dongyeon Lee"
